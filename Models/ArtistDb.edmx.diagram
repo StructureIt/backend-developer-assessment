@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2d3609e64bc94f31b56ff43890065692" Name="Diagram1">
+        <EntityTypeShape EntityType="MusicStoreDbModel.artist" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicStoreDbModel.artistalia" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicStoreDbModel.artistrelease" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicStoreDbModel.release" Width="1.5" PointX="5.125" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="MusicStoreDbModel.FK_artistalias_artist" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicStoreDbModel.fk_artistrelease_artist" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicStoreDbModel.fk_artistrelease_release" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

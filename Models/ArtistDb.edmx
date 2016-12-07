@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MusicStoreDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="artist">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="globalid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="begindate" Type="datetime" />
+          <Property Name="enddate" Type="datetime" />
+          <Property Name="artisttype" Type="varchar" MaxLength="255" />
+          <Property Name="gender" Type="varchar" MaxLength="6" />
+          <Property Name="country" Type="char" MaxLength="2" />
+        </EntityType>
+        <EntityType Name="artistalias">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="artist" Type="int" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="artistrelease">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="artistid" Type="int" Nullable="false" />
+          <Property Name="releaseid" Type="int" Nullable="false" />
+          <Property Name="artistcount" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="release">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="globalid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="title" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="status" Type="varchar" MaxLength="255" />
+          <Property Name="label" Type="varchar" MaxLength="255" />
+          <Property Name="mediatype" Type="varchar" MaxLength="20" />
+          <Property Name="releasedate" Type="datetime" />
+          <Property Name="language" Type="varchar" MaxLength="20" />
+          <Property Name="additionaldetails" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="trackscount" Type="int" />
+        </EntityType>
+        <Association Name="FK_artistalias_artist">
+          <End Role="artist" Type="Self.artist" Multiplicity="1" />
+          <End Role="artistalias" Type="Self.artistalias" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="artist">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="artistalias">
+              <PropertyRef Name="artist" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_artistrelease_artist">
+          <End Role="artist" Type="Self.artist" Multiplicity="1" />
+          <End Role="artistrelease" Type="Self.artistrelease" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="artist">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="artistrelease">
+              <PropertyRef Name="artistid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_artistrelease_release">
+          <End Role="release" Type="Self.release" Multiplicity="1" />
+          <End Role="artistrelease" Type="Self.artistrelease" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="release">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="artistrelease">
+              <PropertyRef Name="releaseid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MusicStoreDbModelStoreContainer">
+          <EntitySet Name="artist" EntityType="Self.artist" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="artistalias" EntityType="Self.artistalias" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="artistrelease" EntityType="Self.artistrelease" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="release" EntityType="Self.release" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_artistalias_artist" Association="Self.FK_artistalias_artist">
+            <End Role="artist" EntitySet="artist" />
+            <End Role="artistalias" EntitySet="artistalias" />
+          </AssociationSet>
+          <AssociationSet Name="fk_artistrelease_artist" Association="Self.fk_artistrelease_artist">
+            <End Role="artist" EntitySet="artist" />
+            <End Role="artistrelease" EntitySet="artistrelease" />
+          </AssociationSet>
+          <AssociationSet Name="fk_artistrelease_release" Association="Self.fk_artistrelease_release">
+            <End Role="release" EntitySet="release" />
+            <End Role="artistrelease" EntitySet="artistrelease" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MusicStoreDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="artist">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="globalid" Type="Guid" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="begindate" Type="DateTime" Precision="3" />
+          <Property Name="enddate" Type="DateTime" Precision="3" />
+          <Property Name="artisttype" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="gender" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+          <Property Name="country" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="artistalias" Relationship="Self.FK_artistalias_artist" FromRole="artist" ToRole="artistalias" />
+          <NavigationProperty Name="artistreleases" Relationship="Self.fk_artistrelease_artist" FromRole="artist" ToRole="artistrelease" />
+        </EntityType>
+        <EntityType Name="artistalia">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="artist" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="artist1" Relationship="Self.FK_artistalias_artist" FromRole="artistalias" ToRole="artist" />
+        </EntityType>
+        <EntityType Name="artistrelease">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="artistid" Type="Int32" Nullable="false" />
+          <Property Name="releaseid" Type="Int32" Nullable="false" />
+          <Property Name="artistcount" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="artist" Relationship="Self.fk_artistrelease_artist" FromRole="artistrelease" ToRole="artist" />
+          <NavigationProperty Name="release" Relationship="Self.fk_artistrelease_release" FromRole="artistrelease" ToRole="release" />
+        </EntityType>
+        <EntityType Name="release">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="globalid" Type="Guid" Nullable="false" />
+          <Property Name="title" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="label" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="mediatype" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="releasedate" Type="DateTime" Precision="3" />
+          <Property Name="language" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="additionaldetails" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="trackscount" Type="Int32" />
+          <NavigationProperty Name="artistreleases" Relationship="Self.fk_artistrelease_release" FromRole="release" ToRole="artistrelease" />
+        </EntityType>
+        <Association Name="FK_artistalias_artist">
+          <End Role="artist" Type="Self.artist" Multiplicity="1" />
+          <End Role="artistalias" Type="Self.artistalia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="artist">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="artistalias">
+              <PropertyRef Name="artist" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_artistrelease_artist">
+          <End Role="artist" Type="Self.artist" Multiplicity="1" />
+          <End Role="artistrelease" Type="Self.artistrelease" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="artist">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="artistrelease">
+              <PropertyRef Name="artistid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_artistrelease_release">
+          <End Role="release" Type="Self.release" Multiplicity="1" />
+          <End Role="artistrelease" Type="Self.artistrelease" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="release">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="artistrelease">
+              <PropertyRef Name="releaseid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MusicStoreDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="artists" EntityType="Self.artist" />
+          <EntitySet Name="artistalias" EntityType="Self.artistalia" />
+          <EntitySet Name="artistreleases" EntityType="Self.artistrelease" />
+          <EntitySet Name="releases" EntityType="Self.release" />
+          <AssociationSet Name="FK_artistalias_artist" Association="Self.FK_artistalias_artist">
+            <End Role="artist" EntitySet="artists" />
+            <End Role="artistalias" EntitySet="artistalias" />
+          </AssociationSet>
+          <AssociationSet Name="fk_artistrelease_artist" Association="Self.fk_artistrelease_artist">
+            <End Role="artist" EntitySet="artists" />
+            <End Role="artistrelease" EntitySet="artistreleases" />
+          </AssociationSet>
+          <AssociationSet Name="fk_artistrelease_release" Association="Self.fk_artistrelease_release">
+            <End Role="release" EntitySet="releases" />
+            <End Role="artistrelease" EntitySet="artistreleases" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MusicStoreDbModelStoreContainer" CdmEntityContainer="MusicStoreDbEntities">
+          <EntitySetMapping Name="artists">
+            <EntityTypeMapping TypeName="MusicStoreDbModel.artist">
+              <MappingFragment StoreEntitySet="artist">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="globalid" ColumnName="globalid" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="begindate" ColumnName="begindate" />
+                <ScalarProperty Name="enddate" ColumnName="enddate" />
+                <ScalarProperty Name="artisttype" ColumnName="artisttype" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="country" ColumnName="country" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="artistalias">
+            <EntityTypeMapping TypeName="MusicStoreDbModel.artistalia">
+              <MappingFragment StoreEntitySet="artistalias">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="artist" ColumnName="artist" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="artistreleases">
+            <EntityTypeMapping TypeName="MusicStoreDbModel.artistrelease">
+              <MappingFragment StoreEntitySet="artistrelease">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="artistid" ColumnName="artistid" />
+                <ScalarProperty Name="releaseid" ColumnName="releaseid" />
+                <ScalarProperty Name="artistcount" ColumnName="artistcount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="releases">
+            <EntityTypeMapping TypeName="MusicStoreDbModel.release">
+              <MappingFragment StoreEntitySet="release">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="globalid" ColumnName="globalid" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="label" ColumnName="label" />
+                <ScalarProperty Name="mediatype" ColumnName="mediatype" />
+                <ScalarProperty Name="releasedate" ColumnName="releasedate" />
+                <ScalarProperty Name="language" ColumnName="language" />
+                <ScalarProperty Name="additionaldetails" ColumnName="additionaldetails" />
+                <ScalarProperty Name="trackscount" ColumnName="trackscount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
