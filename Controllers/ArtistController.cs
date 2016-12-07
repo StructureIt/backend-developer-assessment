@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -107,8 +107,8 @@ namespace SearchApiService.Controllers
             //Uncomment the line below to get list of releases from music db
             //var url = @"http://musicbrainz.org/ws/2/artist=" + artistId + "/releases";
 
-            var url = @"http://localhost:55312/api/v1/artist/" + artistId + "/albums";
-
+            var baseUrl = Request.RequestUri.GetLeftPart(UriPartial.Authority) + Configuration.VirtualPathRoot;
+            var url = $"{baseUrl}/api/v1/artist/{artistId}/albums";
             var responseMessage = await client.GetAsync(url);
             if (!responseMessage.IsSuccessStatusCode)
             {
