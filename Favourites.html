@@ -42,13 +42,35 @@
                         <div class="col-md-11 col-sm-11 col-xs-11" style="font-size: large; font-weight: bold;">Artist name</div>
                     </div>
                     <div ng-init="returnFromLocalStorage('favourites')">
-                        <div class="row" ng-repeat="release in favourites track by $index">
-                            <div style="border-bottom: 1px solid gray; line-height: 3em; vertical-align: middle;">
+                        <div ng-repeat="release in favourites track by $index">
+                            <div style="border-bottom: 1px solid gray; line-height: 4em; vertical-align: middle;">
                                 <div class="col-md-1 col-sm-1 col-xs-1">
-                                    <i class="glyphicon glyphicon-minus-sign" style="color: red;" id="favItem{{$index}}"></i>
+                                    <i class="glyphicon glyphicon-minus-sign" style="color: red;" id="favItem{{$index}}" ng-click="removeFromFavourites(release.title, release.name)"></i>
                                 </div>
-                                <div class="col-md-9 col-sm-9 col-xs-9">{{release.name}}</div>
-                                <div class="col-md-2 col-sm-2 col-xs-2">Show releases</div>
+                                <div class="col-md-8 col-sm-6 col-xs-3" style="text-end-overflow: ellipsis;">{{release.name}}</div>
+                                <div class="col-md-3 col-sm-5 col-xs-8">Show releases</div>
+                            </div>
+                            <div class="row col-md-12" id="results{{$index}}" ng-show="release.releases.length > 0">
+                                <table class="table table-responsive">
+                                    <thead class="thead-default">
+                                        <tr>
+                                            <td></td>
+                                            <td style='font-size: small; font-weight: bold'>Year</td>
+                                            <td style='font-size: small; font-weight: bold'>Title</td>
+                                            <td style='font-size: small; font-weight: bold'>Release Label</td>
+                                            <td style='font-size: small; font-weight: bold'>Number of tracks</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody data-ng-repeat="rel in release.releases">
+                                        <tr>
+                                            <td><i class="glyphicon glyphicon-plus-sign" style="color: yellow;" ng-show="rel.isFavorite === true"></i></td> <!--ng-show="rel.isFavorite === false" <i class="glyphicon glyphicon-asterisk" ng-show="rel.isFavorite === true"></i>-->
+                                            <td>{{rel.date}}</td>
+                                            <td>{{rel.title}}</td>
+                                            <td>{{rel.label}}</td>
+                                            <td>{{rel.numberOfTracks}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
