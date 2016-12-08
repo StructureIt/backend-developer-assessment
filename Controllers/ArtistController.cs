@@ -105,9 +105,10 @@ namespace SearchApiService.Controllers
         public async Task<JsonActionResult> GetReleases(Guid artistId)
         {
             //Uncomment the line below to get list of releases from music db
-            //var url = @"http://musicbrainz.org/ws/2/artist=" + artistId + "/releases";
+            //var url = @"http://musicbrainz.org/ws/2/release?artist=" + artistId + "&inc=labels+recordings&fmt=json";
 
-            var url = @"http://localhost:55312/api/v1/artist/" + artistId + "/albums";
+            var baseUrl = Request.RequestUri.GetLeftPart(UriPartial.Authority) + Configuration.VirtualPathRoot;
+            var url = $"{baseUrl}/api/v1/artist/{artistId}/albums";
 
             var responseMessage = await client.GetAsync(url);
             if (!responseMessage.IsSuccessStatusCode)
