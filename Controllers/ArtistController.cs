@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -109,7 +109,6 @@ namespace SearchApiService.Controllers
 
             var baseUrl = Request.RequestUri.GetLeftPart(UriPartial.Authority) + Configuration.VirtualPathRoot;
             var url = $"{baseUrl}/api/v1/artist/{artistId}/albums";
-
             var responseMessage = await client.GetAsync(url);
             if (!responseMessage.IsSuccessStatusCode)
             {
