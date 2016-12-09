@@ -43,6 +43,12 @@ app.controller("searchCtrl",
                 $http.get(searchUrl)
                     .then(function(response) {
                             console.log('Artist search successful');
+
+                            if (response.data.artists && response.data.artists.length === 0) {
+                                alert("No artists found");
+                                return;
+                            }
+
                             if (response.data.artists) {
                                 $scope.artists = $scope.MapToList(response.data.artists, true);
                                 return;
@@ -94,6 +100,9 @@ app.controller("searchCtrl",
                                 $resultsElement.className = "show";
                             } else {
                                 $resultsElement.className = "hide";
+                                $showElement.className = "show";
+                                $hideElement.className = "hide";
+                                alert("No releases found");
                             }
                         },
                         function(error) {
@@ -120,7 +129,7 @@ app.controller("searchCtrl",
             var list = [];
             $(items)
                 .each(function(i, item) {
-                    var newItem = isArtist ? $scope.MapToArtist(item) : $scope.MapToRelease(item);
+                    var newItem = isArtist === true ? $scope.MapToArtist(item) : $scope.MapToRelease(item);
                     list.push(newItem);
                 });
             return list;
@@ -156,8 +165,9 @@ app.controller("searchCtrl",
             }
         }
 
-        $scope.addToFavourites = function(mbid, name) {
-            $scope.favourites[mbid] = name;
+        //rel.title(title of the release), art(entire artist object)
+        $scope.addToFavourites = function(key, value) {
+            $scope.favourites[key] = value;
             console.log('After adding items');
             console.log($scope.favourites);
 

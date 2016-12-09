@@ -25,8 +25,8 @@
             </div>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="MusicBrainz.html">MusicBrainz</a></li>
-                <li><a href="LastFM.html">Last fm</a></li>
-                <li><a href="Favourites.html">Favorites</a></li>
+                <li><a href="LastFM.html"><i class="glyphicon glyphicon-headphones" style="color: red;"></i> Last fm</a></li>
+                <li><a href="Favourites.html"><i class="glyphicon glyphicon-star" style="color:yellow;"></i> Favorites</a></li>
                 <li><a href="/Help">API</a></li>
             </ul>
         </div>
@@ -66,8 +66,10 @@
                                             <div style="line-height: 4em; vertical-align: middle;">
                                                 <div class="col-md-9 col-sm-7 col-xs-4" style="text-end-overflow: ellipsis;">{{art.name}}</div>
                                                 <div class="col-md-3 col-sm-5 col-xs-8 showReleases" ng-click="getReleases(art.mbid, $index)" style="cursor: pointer;">
-                                                    <div id="show{{$index}}" class="show">Show Releases</div>
-                                                    <div id="hide{{$index}}" class="hide">Hide Releases</div>
+                                                    <a href="#" style="text-decoration: none !important;">
+                                                        <div id="show{{$index}}" class="show">Show Releases</div>
+                                                        <div id="hide{{$index}}" class="hide">Hide Releases</div>
+                                                    </a>
                                                 </div>
                                                 <div class="row" id="results{{$index}}" ng-show="art.releases.length > 0">
                                                     <table class="table">
@@ -82,7 +84,7 @@
                                                         </thead>
                                                         <tbody data-ng-repeat="rel in art.releases">
                                                             <tr>
-                                                                <td><i class="glyphicon glyphicon-plus-sign" style="cursor: pointer;" ng-click="addToFavourites(rel.title, art)"></i></td> <!--ng-show="rel.isFavorite === false" <i class="glyphicon glyphicon-asterisk" ng-show="rel.isFavorite === true"></i>-->
+                                                                <td><i class="glyphicon glyphicon-star" style="cursor: pointer; color: cornflowerblue;" ng-click="addToFavourites(rel.title, art)"></i></td>
                                                                 <td>{{rel.date}}</td>
                                                                 <td>{{rel.title}}</td>
                                                                 <td>{{rel.label}}</td>
