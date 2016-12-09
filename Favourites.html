@@ -15,7 +15,15 @@
 	<script src="Scripts/jquery-1.10.2.min.js"></script>
 	<script src="Scripts/jquery.validate-vsdoc.js"></script>
 	<script src="Scripts/bootstrap.js"></script>
-	<script src="Scripts/searchCtrl.js"></script>
+    <script src="Scripts/searchCtrl.js"></script>
+    <style>
+        footer {
+            background-color: #fff;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+        }
+    </style>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-default">
@@ -34,7 +42,6 @@
 	<div class="container body-content">
 		<div class="container" ng-app="musicsearchApp" ng-controller="searchCtrl">
 			<div ng-model="favourites">
-				<!--ng-show="favourites.length > 0"-->
 				<h2>Favourites</h2>
 				<div id="favDialog">
 					<div class="row">
@@ -48,7 +55,7 @@
 									<i class="glyphicon glyphicon-minus-sign" style="cursor: pointer;color: red;" id="favItem{{$index}}" ng-click="removeFromFavourites(release, release.name)"></i>
 								</div>
 								<div class="col-md-8 col-sm-6 col-xs-3" style="text-end-overflow: ellipsis;">{{release.name}}</div>
-								<div class="col-md-3 col-sm-5 col-xs-8">Show releases</div>
+                                <a href="#" style="text-decoration: none !important;"><div class="col-md-3 col-sm-5 col-xs-8">Show releases</div></a>
 							</div>
 							<div class="row col-md-12" id="results{{$index}}" ng-show="release.releases.length > 0">
 								<table class="table table-responsive">
@@ -99,7 +106,6 @@
 			</div>
 		</div>
 
-		<hr />
 		<footer class="container">
 			<p>© 2016 - Music Xbox Application</p>
 		</footer>
