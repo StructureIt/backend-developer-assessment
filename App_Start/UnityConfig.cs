@@ -2,6 +2,8 @@ using System;
 using Microsoft.Practices.Unity;
 using System.Web.Http;
 using SearchApiService.Models;
+using SearchApiService.Models.DataContract;
+using SearchApiService.Models.ViewModels;
 using SearchApiService.Repository;
 using Unity.WebApi;
 
@@ -17,8 +19,8 @@ namespace SearchApiService
             // it is NOT necessary to register your controllers
 
             // e.g. container.RegisterType<ITestService, TestService>();
-            container.RegisterType<IDatabaseRepository<Artist, Guid>, ArtistRepository>();
-            container.RegisterType<IResultsRepository<AlbumResultsViewModel, Guid>, AlbumsRepository>();
+            container.RegisterType<IReadOnlyRepository<Artist, Guid>, ArtistRepository>();
+            container.RegisterType<IResultsRepository<AlbumResultsViewModel, Guid>, AlbumsRepository>();            
 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }

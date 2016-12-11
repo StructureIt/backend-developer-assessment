@@ -6,18 +6,17 @@ using System.Web.Http;
 using SearchApiService.Models;
 using System.Threading.Tasks;
 using SearchApiService.Repository;
+using SearchApiService.Models.ViewModels;
 
 namespace SearchApiService.Controllers
 {
     [RoutePrefix("api/v1/artist")]
     public class ArtistController : ApiController
     {
-        private readonly IDatabaseRepository<Artist, Guid> _artistRepository;
+        private readonly IReadOnlyRepository<Artist, Guid> _artistRepository;
         private readonly IResultsRepository<AlbumResultsViewModel, Guid> _albumRepository;
 
-        static HttpClient client = new HttpClient();
-
-        public ArtistController(IDatabaseRepository<Artist, Guid> repository, IResultsRepository<AlbumResultsViewModel, Guid> albumRepository)
+        public ArtistController(IReadOnlyRepository<Artist, Guid> repository, IResultsRepository<AlbumResultsViewModel, Guid> albumRepository)
         {
             _artistRepository = repository;
             _albumRepository = albumRepository;
@@ -102,21 +101,17 @@ namespace SearchApiService.Controllers
 
         // GET: api/v1/artist/6456a893-c1e9-4e3d-86f7-0008b0a3ac8a/releases
         [Route("{artistId:guid}/releases")]
-        public async Task<JsonActionResult> GetReleases(Guid artistId)
+        public HttpResponseMessage GetReleases(Guid artistId)
         {
             //Uncomment the line below to get list of releases from music db
             //var url = @"http://musicbrainz.org/ws/2/release?artist=" + artistId + "&inc=labels+recordings&fmt=json";
+            
+            var albumResult = _albumRepository.GetById(artistId);
 
-            var baseUrl = Request.RequestUri.GetLeftPart(UriPartial.Authority) + Configuration.VirtualPathRoot;
-            var url = $"{baseUrl}/api/v1/artist/{artistId}/albums";
-            var responseMessage = await client.GetAsync(url);
-            if (!responseMessage.IsSuccessStatusCode)
-            {
-                return new JsonActionResult("{ error : 'No data found'}");
-            }
+            if (albumResult != null)
+                return Request.CreateResponse(HttpStatusCode.OK, albumResult);
 
-            var responseData = responseMessage.Content.ReadAsStringAsync().Result;
-            return new JsonActionResult(responseData);
+            return SendErrorResponseMessage(artistId.ToString());
         }
     }
 }

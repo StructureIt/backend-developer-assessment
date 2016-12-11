@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
@@ -8,11 +7,10 @@ using SearchApiService.Models;
 
 namespace SearchApiService.Repository
 {
-    public class ArtistRepository : IDatabaseRepository<Artist, Guid>
+    public class ArtistRepository : IReadOnlyRepository<Artist, Guid>
     {
         [Dependency]
         public MusicStoreDbEntities context { get; set; }
-
 
         public IQueryable<Artist> GetAll()
         {

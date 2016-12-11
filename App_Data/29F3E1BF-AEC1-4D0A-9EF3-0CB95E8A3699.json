@@ -1,0 +1,4913 @@
+﻿{
+  "release-count": 11,
+  "release-offset": 0,
+  "releases": [
+    {
+      "status": "Official",
+      "media": [
+        {
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "title": "Not Today",
+              "number": "1",
+              "length": 211320,
+              "recording": {
+                "title": "Not Today",
+                "video": false,
+                "disambiguation": "",
+                "length": 211320,
+                "artist-credit": [
+                  {
+                    "joinphrase": " feat. ",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "name": "Transplants"
+                  },
+                  {
+                    "joinphrase": "",
+                    "name": "Sen Dog",
+                    "artist": {
+                      "sort-name": "Sen Dog",
+                      "name": "Sen Dog",
+                      "id": "1f242c20-f7ad-420c-a130-5e442fd8101e",
+                      "disambiguation": ""
+                    }
+                  }
+                ],
+                "id": "14131145-0c05-4695-9be4-c1eab2e6dad6"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": " feat. "
+                },
+                {
+                  "name": "Sen Dog",
+                  "artist": {
+                    "id": "1f242c20-f7ad-420c-a130-5e442fd8101e",
+                    "name": "Sen Dog",
+                    "sort-name": "Sen Dog",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "id": "bcfe2b28-8bea-3369-97e1-90965a2ad3d7"
+            },
+            {
+              "length": 233173,
+              "title": "Apocalypse Now",
+              "number": "2",
+              "id": "14c42f08-7647-3654-9c1b-194f353370e6",
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    }
+                  }
+                ],
+                "id": "a97ee9ab-4108-4b1a-959c-8c26c4c1cf31",
+                "title": "Apocalypse Now",
+                "video": false,
+                "disambiguation": "",
+                "length": 233173
+              }
+            },
+            {
+              "id": "360af31c-4354-372b-9065-9a884cbcf39c",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  }
+                ],
+                "id": "01de772f-d1ed-4bc2-91cf-f3dc4bf33409",
+                "title": "Gangsters and Thugs",
+                "length": 280173,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 280173,
+              "title": "Gangsters and Thugs",
+              "number": "3"
+            },
+            {
+              "length": 301880,
+              "title": "What I Can’t Describe",
+              "number": "4",
+              "id": "e0f597a1-a749-31f3-aadc-8251fb8166bf",
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants"
+                },
+                {
+                  "joinphrase": "",
+                  "name": "Boo‐Yaa T.R.I.B.E.",
+                  "artist": {
+                    "sort-name": "Boo‐Yaa T.R.I.B.E.",
+                    "name": "Boo‐Yaa T.R.I.B.E.",
+                    "id": "253ba930-9c4c-4f99-b2bf-87b84cefb8f0",
+                    "disambiguation": "American hip hop group from Carson, California"
+                  }
+                }
+              ],
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 301880,
+                "title": "What I Can’t Describe",
+                "id": "f053dbae-efb3-4cf0-927e-580278986f0c",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "American hip hop group from Carson, California",
+                      "name": "Boo‐Yaa T.R.I.B.E.",
+                      "id": "253ba930-9c4c-4f99-b2bf-87b84cefb8f0",
+                      "sort-name": "Boo‐Yaa T.R.I.B.E."
+                    },
+                    "name": "Boo‐Yaa T.R.I.B.E."
+                  }
+                ]
+              }
+            },
+            {
+              "length": 271866,
+              "number": "5",
+              "title": "Doomsday",
+              "id": "d199a3d7-8a0d-3fd7-9500-3a73b05a9eee",
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "15cf10d9-670b-4c56-b699-a15246af2ebe",
+                "title": "Doomsday",
+                "disambiguation": "",
+                "video": false,
+                "length": 271866
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "id": "1e7f74d9-e4da-36a4-a81b-e56cb0265cbc",
+              "recording": {
+                "title": "Killafornia",
+                "video": false,
+                "length": 271520,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "joinphrase": " feat. ",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  },
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "sort-name": "B‐Real",
+                      "name": "B‐Real",
+                      "id": "9c8b5123-d994-4c0c-85c0-465636ae241e",
+                      "disambiguation": ""
+                    },
+                    "name": "B Real"
+                  }
+                ],
+                "id": "1f2f60f0-789f-4781-874e-4504e756ef6f"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants"
+                },
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "B‐Real",
+                    "id": "9c8b5123-d994-4c0c-85c0-465636ae241e",
+                    "name": "B‐Real"
+                  },
+                  "name": "B Real"
+                }
+              ],
+              "length": 271520,
+              "title": "Killafornia",
+              "number": "6"
+            },
+            {
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "id": "a653ec5b-708a-4777-af50-6f41e3d40457",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 189346,
+                "title": "American Guns"
+              },
+              "id": "f879cf56-245f-30b4-8271-c40ef66b246e",
+              "title": "American Guns",
+              "number": "7",
+              "length": 189346
+            },
+            {
+              "id": "f0a0fbb2-7b5b-37b5-86d6-77e4499a71ab",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "f43496b0-22c9-4057-8c8a-9217bf48bd07",
+                "title": "Madness",
+                "length": 228746,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 228746,
+              "title": "Madness",
+              "number": "8"
+            },
+            {
+              "length": 146440,
+              "number": "9",
+              "title": "Hit The Fence",
+              "id": "4a4c94e8-454d-3b3b-9417-4fd1d9404066",
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "bdb355fb-bedb-4226-a25a-46772c45d7d7",
+                "title": "Hit The Fence",
+                "video": false,
+                "disambiguation": "",
+                "length": 146440
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "title": "Pay Any Price",
+              "number": "10",
+              "length": 140413,
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 140413,
+                "title": "Pay Any Price",
+                "id": "ea796f71-3885-440c-bc1b-0dc87a7ba041",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ]
+              },
+              "id": "fe9865d2-b34c-39f0-90d6-1afd5cdf2ef9"
+            },
+            {
+              "length": 284840,
+              "title": "I Want It All",
+              "number": "11",
+              "id": "177d9f60-5550-37c9-9bd2-3f4869b6a3b6",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "id": "195e58d3-5adc-400a-9104-5831fafc2e5b",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ],
+                "video": false,
+                "length": 284840,
+                "disambiguation": "",
+                "title": "I Want It All"
+              }
+            },
+            {
+              "length": 347293,
+              "title": "Crash and Burn",
+              "number": "12",
+              "id": "72db2545-1512-32f3-9bf6-2926dd34bead",
+              "recording": {
+                "id": "6477d07f-366e-46df-b3df-eaf8dd5a52e9",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "sort-name": "Rakaa Iriscience",
+                      "name": "Rakaa Iriscience",
+                      "id": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+                      "disambiguation": "member of Dilated Peoples"
+                    },
+                    "name": "Rakaa"
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 347293,
+                "title": "Crash and Burn"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                },
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "name": "Rakaa Iriscience",
+                    "id": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+                    "sort-name": "Rakaa Iriscience",
+                    "disambiguation": "member of Dilated Peoples"
+                  },
+                  "name": "Rakaa"
+                }
+              ]
+            }
+          ],
+          "format": "CD",
+          "track-count": 12,
+          "position": 1,
+          "title": ""
+        }
+      ],
+      "asin": "B000BH4YHW",
+      "packaging-id": null,
+      "artist-credit": [
+        {
+          "artist": {
+            "disambiguation": "",
+            "sort-name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "name": "Transplants"
+          },
+          "name": "Transplants",
+          "joinphrase": ""
+        }
+      ],
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "2005-11-01",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "country": "US",
+      "cover-art-archive": {
+        "front": false,
+        "back": false,
+        "darkened": false,
+        "count": 0,
+        "artwork": false
+      },
+      "disambiguation": "",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "disambiguation": "",
+            "sort-name": "United States",
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "date": "2005-11-01"
+        }
+      ],
+      "barcode": "075679412621",
+      "id": "20ae4605-e939-4c5f-b04f-647bf01a180b",
+      "title": "Haunted Cities: Screwed and Chopped by DJ Paul Wall",
+      "packaging": null,
+      "label-info": [
+        {
+          "label": {
+            "disambiguation": "",
+            "sort-name": "LaSalle Records",
+            "label-code": null,
+            "id": "b5a891af-c64d-480f-baac-2bcc294245a3",
+            "name": "LaSalle Records"
+          },
+          "catalog-number": "94126-2"
+        }
+      ]
+    },
+    {
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 198600,
+                "title": "Romper Stomper",
+                "id": "90217fb7-647d-4960-a76a-01cb96997213",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "joinphrase": ""
+                  }
+                ]
+              },
+              "id": "ab66e38f-53eb-34de-a019-5a7160fea919",
+              "number": "1",
+              "title": "Romper Stomper",
+              "length": 198600
+            },
+            {
+              "id": "7e40c0bc-5931-3e76-aad6-1053e517897e",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ],
+                "id": "d16bfe48-0bea-4f82-b9b5-67152355989a",
+                "title": "Tall Cans in the Air",
+                "video": false,
+                "length": 224454,
+                "disambiguation": ""
+              },
+              "length": 223666,
+              "number": "2",
+              "title": "Tall Cans in the Air"
+            },
+            {
+              "length": 241226,
+              "number": "3",
+              "title": "D.J. D.J.",
+              "id": "b4db6c25-deb5-34bc-906b-23499b8ff437",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  }
+                }
+              ],
+              "recording": {
+                "title": "D.J. D.J.",
+                "video": false,
+                "disambiguation": "",
+                "length": 241000,
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "eda69e91-bfbd-4c50-ab8a-747b34610d9f"
+              }
+            },
+            {
+              "id": "4dff8ff4-0034-3b58-bd12-ffe56184b68d",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "4e1666fc-c36d-4eba-9b42-77011c5a7170",
+                "title": "Diamonds and Guns",
+                "video": false,
+                "disambiguation": "",
+                "length": 241000
+              },
+              "length": 241906,
+              "title": "Diamonds and Guns",
+              "number": "4"
+            },
+            {
+              "number": "5",
+              "title": "Quick Death",
+              "length": 216493,
+              "recording": {
+                "id": "10f7bd89-a274-4bc2-85aa-640eec48d71a",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "length": 214000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Quick Death"
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "ee11d181-f01c-3875-9f4e-1c7ab9a8f11d"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 266000,
+                "title": "Sad but True",
+                "id": "72faeab2-5eb9-4d2e-b894-a78f6289e6cd",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  }
+                ]
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "2cc6f083-6208-3afd-8260-bc9ca43f3a9c",
+              "title": "Sad but True",
+              "number": "6",
+              "length": 266333
+            },
+            {
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "ea4dc632-cf48-4379-bc14-f6480ef0162e",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 202000,
+                "title": "Weigh on My Mind"
+              },
+              "id": "6e1a3e9e-820c-3780-86f1-3ac58a2426eb",
+              "number": "7",
+              "title": "Weigh on My Mind",
+              "length": 202466
+            },
+            {
+              "id": "65fcfb7d-ca7a-395c-9d17-ece7aaa21beb",
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "c0ff2a65-3f82-4059-b198-93e16b828de7",
+                "title": "One Seventeen",
+                "disambiguation": "",
+                "video": false,
+                "length": 121440
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "length": 121440,
+              "number": "8",
+              "title": "One Seventeen"
+            },
+            {
+              "title": "California Babylon",
+              "number": "9",
+              "length": 245026,
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "82be2f95-19c7-4797-89f4-11bfe27ed79a",
+                "title": "California Babylon",
+                "video": false,
+                "length": 245000,
+                "disambiguation": ""
+              },
+              "id": "7cadc00c-e4e9-3be1-89a0-3b92cac904c6"
+            },
+            {
+              "title": "We Trusted You",
+              "number": "10",
+              "length": 275840,
+              "recording": {
+                "title": "We Trusted You",
+                "length": 275840,
+                "video": false,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "id": "67015d91-cb37-4750-921b-aa36c713230c"
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "bbfc47b1-eb8a-39f5-8a81-d802b7017fb6"
+            },
+            {
+              "length": 282093,
+              "title": "D.R.E.A.M.",
+              "number": "11",
+              "id": "37ab3dfd-4d39-376f-a2c0-77d358d51de6",
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "id": "eb4bb5fc-51f6-447d-ba7b-f1691c39b105",
+                "title": "D.R.E.A.M.",
+                "length": 282000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": 203000,
+              "number": "12",
+              "title": "Down in Oakland",
+              "id": "8d38b3fb-bb6b-3a77-8e6d-ee4ce2f637b3",
+              "recording": {
+                "title": "Down in Oakland",
+                "length": 203000,
+                "video": false,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "id": "aedaac04-408f-40e0-931d-2aff478a1983"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ]
+            }
+          ],
+          "track-offset": 0,
+          "title": "",
+          "format": "CD",
+          "track-count": 12,
+          "position": 1
+        }
+      ],
+      "status": "Official",
+      "asin": "B00006JTGU",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "artist-credit": [
+        {
+          "artist": {
+            "sort-name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "name": "Transplants",
+            "disambiguation": ""
+          },
+          "name": "Transplants",
+          "joinphrase": ""
+        }
+      ],
+      "disambiguation": "",
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "artwork": true,
+        "back": false,
+        "darkened": false
+      },
+      "country": "US",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "date": "2002-10-22",
+      "id": "292b6eaf-fadf-41d9-88c7-fdc0fbaef00e",
+      "barcode": "045778044825",
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "United States",
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          },
+          "date": "2002-10-22"
+        }
+      ],
+      "packaging": "Digipak",
+      "title": "Transplants",
+      "label-info": [
+        {
+          "label": {
+            "disambiguation": "",
+            "sort-name": "Hellcat Records",
+            "label-code": null,
+            "id": "5c5e0ca2-8819-4b3b-8b43-59943780c2b6",
+            "name": "Hellcat Records"
+          },
+          "catalog-number": "80448-2"
+        }
+      ]
+    },
+    {
+      "packaging-id": null,
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "artist-credit": [
+        {
+          "joinphrase": "",
+          "name": "Transplants",
+          "artist": {
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "name": "Transplants",
+            "sort-name": "Transplants",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "status": "Official",
+      "media": [
+        {
+          "tracks": [
+            {
+              "id": "7f1f07dc-b513-3b21-a109-21c345b81ddd",
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 161413,
+                "title": "Not Today",
+                "id": "958fabc6-be05-4a41-aeb1-574c20e35503",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Sen Dog",
+                      "id": "1f242c20-f7ad-420c-a130-5e442fd8101e",
+                      "name": "Sen Dog"
+                    },
+                    "name": "Sen Dog"
+                  }
+                ]
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  }
+                },
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Sen Dog",
+                    "id": "1f242c20-f7ad-420c-a130-5e442fd8101e",
+                    "name": "Sen Dog"
+                  },
+                  "name": "Sen Dog"
+                }
+              ],
+              "length": 161413,
+              "title": "Not Today",
+              "number": "1"
+            },
+            {
+              "length": 196213,
+              "number": "2",
+              "title": "Apocalypse Now",
+              "id": "70b1b84d-a1f3-3328-93ba-392a339554e6",
+              "recording": {
+                "id": "5ebbd362-4d9a-4758-8725-0e8bd95e9e90",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "length": 196213,
+                "video": false,
+                "disambiguation": "",
+                "title": "Apocalypse Now"
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  }
+                }
+              ],
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 234800,
+                "title": "Gangsters and Thugs",
+                "id": "36d40d28-65f7-4ca0-88b4-87715d73b5bb",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  }
+                ]
+              },
+              "id": "1af35e63-21c4-32a7-91f1-a6fe87e41b3d",
+              "number": "3",
+              "title": "Gangsters and Thugs",
+              "length": 234800
+            },
+            {
+              "length": 242093,
+              "title": "What I Can't Describe",
+              "number": "4",
+              "id": "a6a50b23-b760-387f-bf3c-cb58aac65a2d",
+              "recording": {
+                "title": "What I Can't Describe",
+                "disambiguation": "",
+                "video": false,
+                "length": 242093,
+                "artist-credit": [
+                  {
+                    "joinphrase": " feat. ",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  },
+                  {
+                    "artist": {
+                      "sort-name": "Boo‐Yaa T.R.I.B.E.",
+                      "name": "Boo‐Yaa T.R.I.B.E.",
+                      "id": "253ba930-9c4c-4f99-b2bf-87b84cefb8f0",
+                      "disambiguation": "American hip hop group from Carson, California"
+                    },
+                    "name": "Boo‐Yaa T.R.I.B.E.",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "c419e041-7cd9-421e-8043-876a4a7187d0"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  },
+                  "joinphrase": " feat. "
+                },
+                {
+                  "name": "Boo‐Yaa T.R.I.B.E.",
+                  "artist": {
+                    "id": "253ba930-9c4c-4f99-b2bf-87b84cefb8f0",
+                    "name": "Boo‐Yaa T.R.I.B.E.",
+                    "sort-name": "Boo‐Yaa T.R.I.B.E.",
+                    "disambiguation": "American hip hop group from Carson, California"
+                  },
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "id": "04a7609b-69e1-30e3-8c92-58b7260bd3ad",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "title": "Doomsday",
+                "video": false,
+                "disambiguation": "",
+                "length": 229213,
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ],
+                "id": "79ad45ea-f2c6-4cef-bdf4-e25e86c0df9b"
+              },
+              "length": 229213,
+              "title": "Doomsday",
+              "number": "5"
+            },
+            {
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  }
+                },
+                {
+                  "name": "B‐Real",
+                  "artist": {
+                    "name": "B‐Real",
+                    "id": "9c8b5123-d994-4c0c-85c0-465636ae241e",
+                    "sort-name": "B‐Real",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "c7df17ad-43a3-4c1d-af1a-0bf51f07b675",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "name": "B‐Real",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "B‐Real",
+                      "name": "B‐Real",
+                      "id": "9c8b5123-d994-4c0c-85c0-465636ae241e"
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "length": 227026,
+                "disambiguation": "",
+                "title": "Killafornia"
+              },
+              "id": "07d7d653-1675-312e-a30a-539be8fb0b8c",
+              "title": "Killafornia",
+              "number": "6",
+              "length": 227026
+            },
+            {
+              "title": "American Guns",
+              "number": "7",
+              "length": 158906,
+              "artist-credit": [
+                {
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "07f665bf-2c6a-44e1-82bb-80a744c997f8",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 158906,
+                "title": "American Guns"
+              },
+              "id": "9245edbc-f665-3718-9c62-34ec324ccf6d"
+            },
+            {
+              "length": 189520,
+              "title": "Madness",
+              "number": "8",
+              "id": "a8a9bdd3-e96a-36cb-b43b-32a46d82630c",
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  }
+                ],
+                "id": "cc39bcb8-36ea-47d8-8678-fc15a1a34893",
+                "title": "Madness",
+                "video": false,
+                "disambiguation": "",
+                "length": 189520
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "length": 132026,
+              "number": "9",
+              "title": "Hit the Fence",
+              "id": "2802fd91-1bcf-39ce-bbf8-dc3fcfa54c1b",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "e17cc421-fbde-48d7-9820-bcacc2a81a87",
+                "title": "Hit the Fence",
+                "video": false,
+                "length": 132026,
+                "disambiguation": ""
+              }
+            },
+            {
+              "title": "Pay Any Price",
+              "number": "10",
+              "length": 117853,
+              "recording": {
+                "id": "75fe19a9-2467-444e-aabb-8b95cd8d75a7",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 117853,
+                "title": "Pay Any Price"
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "415a0ecd-8b1a-3998-a664-1b857e0d948e"
+            },
+            {
+              "length": 236800,
+              "number": "11",
+              "title": "I Want It All",
+              "id": "0192ca7e-ae55-3f76-be56-084443b1eae7",
+              "recording": {
+                "length": 236800,
+                "video": false,
+                "disambiguation": "",
+                "title": "I Want It All",
+                "id": "8e2cce90-1603-4fda-b2e6-12442f490ea5",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ]
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ]
+            },
+            {
+              "recording": {
+                "title": "Crash and Burn",
+                "length": 285640,
+                "video": false,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "joinphrase": " feat. ",
+                    "name": "Transplants",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  },
+                  {
+                    "artist": {
+                      "disambiguation": "member of Dilated Peoples",
+                      "name": "Rakaa Iriscience",
+                      "id": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+                      "sort-name": "Rakaa Iriscience"
+                    },
+                    "name": "Rakaa",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "9069cb0c-6167-419e-8fc6-79efd9ae0d03"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                },
+                {
+                  "name": "Rakaa",
+                  "artist": {
+                    "disambiguation": "member of Dilated Peoples",
+                    "sort-name": "Rakaa Iriscience",
+                    "id": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+                    "name": "Rakaa Iriscience"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "id": "b92e9a05-fac0-32ce-8116-b5d96bea424f",
+              "title": "Crash and Burn",
+              "number": "12",
+              "length": 285640
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0,
+          "title": "",
+          "position": 1,
+          "format": "CD",
+          "track-count": 12
+        }
+      ],
+      "asin": "B0009I7NQM",
+      "packaging": null,
+      "title": "Haunted Cities",
+      "label-info": [
+        {
+          "label": {
+            "sort-name": "LaSalle Records",
+            "name": "LaSalle Records",
+            "id": "b5a891af-c64d-480f-baac-2bcc294245a3",
+            "label-code": null,
+            "disambiguation": ""
+          },
+          "catalog-number": "94101-2"
+        }
+      ],
+      "country": "US",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": false,
+        "artwork": true,
+        "count": 1,
+        "front": true
+      },
+      "disambiguation": "clean",
+      "date": "2005-06-21",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "barcode": "075679410429",
+      "id": "2d7f1dbc-5928-420c-8325-cb136c261896",
+      "release-events": [
+        {
+          "date": "2005-06-21",
+          "area": {
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "packaging-id": null,
+      "artist-credit": [
+        {
+          "artist": {
+            "sort-name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "name": "Transplants",
+            "disambiguation": ""
+          },
+          "name": "Transplants",
+          "joinphrase": ""
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "media": [
+        {
+          "track-offset": 0,
+          "tracks": [
+            {
+              "length": 238026,
+              "number": "1",
+              "title": "1, 2, 3, 4, 5, 6, 7",
+              "id": "0cb10816-2650-39cb-9997-c82051de8887",
+              "recording": {
+                "id": "c19d51c1-8dcb-4d5b-a30a-e37ae76ab744",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "length": 238026,
+                "disambiguation": "",
+                "title": "1, 2, 3, 4, 5, 6, 7"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ]
+            }
+          ],
+          "format-id": null,
+          "position": 1,
+          "track-count": 1,
+          "format": null,
+          "title": ""
+        }
+      ],
+      "status": null,
+      "asin": null,
+      "title": "1, 2, 3, 4, 5, 6, 7",
+      "packaging": null,
+      "label-info": [],
+      "status-id": null,
+      "date": "2005-06-21",
+      "disambiguation": "",
+      "cover-art-archive": {
+        "front": false,
+        "artwork": false,
+        "count": 0,
+        "back": false,
+        "darkened": false
+      },
+      "country": "US",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "disambiguation": "",
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States"
+          },
+          "date": "2005-06-21"
+        }
+      ],
+      "id": "776eec85-b7c2-4d86-a8ce-f89b2f7ca6d0",
+      "barcode": null
+    },
+    {
+      "disambiguation": "",
+      "cover-art-archive": {
+        "artwork": false,
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "front": false
+      },
+      "country": "GB",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "date": "2004-01-06",
+      "id": "77cbe1ce-68ab-4531-96d0-259078a946b4",
+      "barcode": "8714092110821",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "sort-name": "United Kingdom",
+            "name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+          },
+          "date": "2004-01-06"
+        }
+      ],
+      "packaging": null,
+      "title": "Diamonds and Guns",
+      "label-info": [],
+      "media": [
+        {
+          "title": "",
+          "track-count": 2,
+          "format": null,
+          "position": 1,
+          "format-id": null,
+          "tracks": [
+            {
+              "length": 239693,
+              "title": "Diamonds and Guns",
+              "number": "1",
+              "id": "282147e2-4978-3af7-a54c-f33c593e47ad",
+              "recording": {
+                "id": "4e1666fc-c36d-4eba-9b42-77011c5a7170",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 241000,
+                "title": "Diamonds and Guns"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  }
+                }
+              ]
+            },
+            {
+              "recording": {
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants"
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "e5428772-d10c-4262-9c4e-48925e669a7d",
+                "title": "Tall Cans in the Air",
+                "length": 376280,
+                "video": false,
+                "disambiguation": ""
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "a9017161-d6da-3529-a93e-76eb4e85b764",
+              "number": "2",
+              "title": "Tall Cans in the Air",
+              "length": 376280
+            }
+          ],
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "asin": "B00008OP0M",
+      "packaging-id": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "artist-credit": [
+        {
+          "joinphrase": "",
+          "name": "Transplants",
+          "artist": {
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "name": "Transplants",
+            "sort-name": "Transplants",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "artist-credit": [
+        {
+          "artist": {
+            "sort-name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "name": "Transplants",
+            "disambiguation": ""
+          },
+          "name": "Transplants",
+          "joinphrase": ""
+        }
+      ],
+      "packaging-id": null,
+      "asin": "B00009VYV0",
+      "status": "Official",
+      "media": [
+        {
+          "title": "",
+          "format": "CD",
+          "track-count": 2,
+          "position": 1,
+          "tracks": [
+            {
+              "length": 243333,
+              "number": "1",
+              "title": "DJ, DJ (album version)",
+              "id": "090e921b-d180-36ef-9756-7ae2844961de",
+              "recording": {
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "efa7e7c4-f0c4-413d-a4f2-dfaf9df2fea9",
+                "title": "DJ, DJ (album version)",
+                "length": 243333,
+                "video": false,
+                "disambiguation": ""
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  }
+                }
+              ]
+            },
+            {
+              "length": 266160,
+              "number": "2",
+              "title": "DJ, DJ (89 Skratch Gangstaz remix)",
+              "id": "b0f408fd-b950-38c4-a635-4e6d1e0e2198",
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ],
+                "id": "7ab34867-40f5-4a01-80ae-ba6215c43f2e",
+                "title": "DJ, DJ (89 Skratch Gangstaz remix)",
+                "length": 266160,
+                "video": false,
+                "disambiguation": ""
+              }
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0
+        }
+      ],
+      "label-info": [
+        {
+          "catalog-number": "1112-2",
+          "label": {
+            "disambiguation": "",
+            "label-code": null,
+            "id": "5c5e0ca2-8819-4b3b-8b43-59943780c2b6",
+            "name": "Hellcat Records",
+            "sort-name": "Hellcat Records"
+          }
+        }
+      ],
+      "packaging": null,
+      "title": "DJ, DJ",
+      "barcode": "8714092111224",
+      "id": "8c519cec-3c51-4fdf-89b7-47e6f32e5b18",
+      "release-events": [
+        {
+          "date": "2003",
+          "area": {
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "count": 0,
+        "artwork": false,
+        "darkened": false,
+        "back": false,
+        "front": false
+      },
+      "country": "GB",
+      "disambiguation": "",
+      "date": "2003",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "packaging-id": null,
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "artist-credit": [
+        {
+          "joinphrase": "",
+          "name": "Transplants",
+          "artist": {
+            "disambiguation": "",
+            "sort-name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "name": "Transplants"
+          }
+        }
+      ],
+      "status": "Official",
+      "media": [
+        {
+          "title": "",
+          "format": "CD",
+          "track-count": 12,
+          "position": 1,
+          "tracks": [
+            {
+              "recording": {
+                "id": "958fabc6-be05-4a41-aeb1-574c20e35503",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Sen Dog",
+                      "id": "1f242c20-f7ad-420c-a130-5e442fd8101e",
+                      "name": "Sen Dog"
+                    },
+                    "name": "Sen Dog",
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "length": 161413,
+                "disambiguation": "",
+                "title": "Not Today"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": " feat. "
+                },
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "sort-name": "Sen Dog",
+                    "id": "1f242c20-f7ad-420c-a130-5e442fd8101e",
+                    "name": "Sen Dog",
+                    "disambiguation": ""
+                  },
+                  "name": "Sen Dog"
+                }
+              ],
+              "id": "0e00e60c-8523-3224-b282-29b7841e5d17",
+              "title": "Not Today",
+              "number": "1",
+              "length": 161413
+            },
+            {
+              "id": "36395d2e-c90d-3508-b806-e3ea39e9cbfc",
+              "recording": {
+                "id": "5ebbd362-4d9a-4758-8725-0e8bd95e9e90",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "disambiguation": "",
+                "video": false,
+                "length": 196213,
+                "title": "Apocalypse Now"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "length": 196213,
+              "title": "Apocalypse Now",
+              "number": "2"
+            },
+            {
+              "length": 234800,
+              "number": "3",
+              "title": "Gangsters and Thugs",
+              "id": "89f3f59b-3ab5-34b0-9192-25e10aac624a",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  }
+                }
+              ],
+              "recording": {
+                "title": "Gangsters and Thugs",
+                "disambiguation": "",
+                "video": false,
+                "length": 234800,
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "36d40d28-65f7-4ca0-88b4-87715d73b5bb"
+              }
+            },
+            {
+              "artist-credit": [
+                {
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": " feat. "
+                },
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "disambiguation": "American hip hop group from Carson, California",
+                    "sort-name": "Boo‐Yaa T.R.I.B.E.",
+                    "id": "253ba930-9c4c-4f99-b2bf-87b84cefb8f0",
+                    "name": "Boo‐Yaa T.R.I.B.E."
+                  },
+                  "name": "Boo‐Yaa T.R.I.B.E."
+                }
+              ],
+              "recording": {
+                "id": "c419e041-7cd9-421e-8043-876a4a7187d0",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    },
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "artist": {
+                      "disambiguation": "American hip hop group from Carson, California",
+                      "sort-name": "Boo‐Yaa T.R.I.B.E.",
+                      "name": "Boo‐Yaa T.R.I.B.E.",
+                      "id": "253ba930-9c4c-4f99-b2bf-87b84cefb8f0"
+                    },
+                    "name": "Boo‐Yaa T.R.I.B.E.",
+                    "joinphrase": ""
+                  }
+                ],
+                "disambiguation": "",
+                "video": false,
+                "length": 242093,
+                "title": "What I Can't Describe"
+              },
+              "id": "e8562fa1-bd25-3671-b600-dd9ca9b04944",
+              "number": "4",
+              "title": "What I Can't Describe",
+              "length": 242093
+            },
+            {
+              "id": "b49662cd-8d61-3e15-bd40-c17937f46494",
+              "recording": {
+                "id": "79ad45ea-f2c6-4cef-bdf4-e25e86c0df9b",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 229213,
+                "title": "Doomsday"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "length": 229213,
+              "title": "Doomsday",
+              "number": "5"
+            },
+            {
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": " feat. ",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    }
+                  },
+                  {
+                    "name": "B‐Real",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "B‐Real",
+                      "name": "B‐Real",
+                      "id": "9c8b5123-d994-4c0c-85c0-465636ae241e"
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "c7df17ad-43a3-4c1d-af1a-0bf51f07b675",
+                "title": "Killafornia",
+                "disambiguation": "",
+                "video": false,
+                "length": 227026
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": " feat. "
+                },
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "name": "B‐Real",
+                    "id": "9c8b5123-d994-4c0c-85c0-465636ae241e",
+                    "sort-name": "B‐Real",
+                    "disambiguation": ""
+                  },
+                  "name": "B‐Real"
+                }
+              ],
+              "id": "0c0d5942-b061-3054-b732-68715a41aa13",
+              "number": "6",
+              "title": "Killafornia",
+              "length": 227026
+            },
+            {
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  }
+                }
+              ],
+              "recording": {
+                "id": "07f665bf-2c6a-44e1-82bb-80a744c997f8",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 158906,
+                "title": "American Guns"
+              },
+              "id": "1ebff820-dcc3-3bf1-bf63-204aba9c38f7",
+              "title": "American Guns",
+              "number": "7",
+              "length": 158906
+            },
+            {
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "recording": {
+                "length": 189520,
+                "video": false,
+                "disambiguation": "",
+                "title": "Madness",
+                "id": "cc39bcb8-36ea-47d8-8678-fc15a1a34893",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ]
+              },
+              "id": "6b687bed-09b3-3c34-9b6e-15c241fef717",
+              "title": "Madness",
+              "number": "8",
+              "length": 189520
+            },
+            {
+              "number": "9",
+              "title": "Hit the Fence",
+              "length": 132026,
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    }
+                  }
+                ],
+                "id": "e17cc421-fbde-48d7-9820-bcacc2a81a87",
+                "title": "Hit the Fence",
+                "video": false,
+                "length": 132026,
+                "disambiguation": ""
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "id": "aeb9908b-ffda-3555-95e4-cb9cadb08bc4"
+            },
+            {
+              "id": "cfc04a86-30b6-32cf-9923-d20f5c5214b6",
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 117853,
+                "title": "Pay Any Price",
+                "id": "75fe19a9-2467-444e-aabb-8b95cd8d75a7",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "joinphrase": ""
+                  }
+                ]
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "length": 117853,
+              "number": "10",
+              "title": "Pay Any Price"
+            },
+            {
+              "length": 236800,
+              "title": "I Want It All",
+              "number": "11",
+              "id": "456b8638-f5d1-3d35-b58c-73da51f931fa",
+              "recording": {
+                "id": "8e2cce90-1603-4fda-b2e6-12442f490ea5",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 236800,
+                "title": "I Want It All"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "45c4b977-ec02-309e-a6ed-6b94ef0f9828",
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants"
+                },
+                {
+                  "joinphrase": "",
+                  "name": "Rakaa",
+                  "artist": {
+                    "name": "Rakaa Iriscience",
+                    "id": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+                    "sort-name": "Rakaa Iriscience",
+                    "disambiguation": "member of Dilated Peoples"
+                  }
+                }
+              ],
+              "recording": {
+                "id": "9069cb0c-6167-419e-8fc6-79efd9ae0d03",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "member of Dilated Peoples",
+                      "id": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+                      "name": "Rakaa Iriscience",
+                      "sort-name": "Rakaa Iriscience"
+                    },
+                    "name": "Rakaa"
+                  }
+                ],
+                "disambiguation": "",
+                "video": false,
+                "length": 285640,
+                "title": "Crash and Burn"
+              },
+              "length": 285640,
+              "title": "Crash and Burn",
+              "number": "12"
+            }
+          ],
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-offset": 0
+        }
+      ],
+      "asin": "B00092ZM7A",
+      "packaging": null,
+      "title": "Haunted Cities",
+      "label-info": [
+        {
+          "label": {
+            "id": "b5a891af-c64d-480f-baac-2bcc294245a3",
+            "name": "LaSalle Records",
+            "label-code": null,
+            "sort-name": "LaSalle Records",
+            "disambiguation": ""
+          },
+          "catalog-number": "94104"
+        }
+      ],
+      "cover-art-archive": {
+        "back": false,
+        "darkened": false,
+        "count": 0,
+        "artwork": false,
+        "front": false
+      },
+      "country": "US",
+      "disambiguation": "",
+      "date": "2005-06-21",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "barcode": null,
+      "id": "b04f09cb-5721-363c-adbe-e007878bb1c5",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States"
+          },
+          "date": "2005-06-21"
+        }
+      ]
+    },
+    {
+      "barcode": "",
+      "id": "bed379ee-2fde-4174-a8c1-2803efa17278",
+      "release-events": [
+        {
+          "area": {
+            "name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "disambiguation": ""
+          },
+          "date": "2013-06-21"
+        }
+      ],
+      "country": "US",
+      "cover-art-archive": {
+        "artwork": true,
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "front": true
+      },
+      "disambiguation": "",
+      "date": "2013-06-21",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "label-info": [
+        {
+          "label": {
+            "disambiguation": "",
+            "sort-name": "Epitaph",
+            "name": "Epitaph",
+            "id": "1bfd06be-a6ed-4ced-8159-7d4d2923a40c",
+            "label-code": null
+          },
+          "catalog-number": null
+        }
+      ],
+      "packaging": "None",
+      "title": "In a Warzone",
+      "asin": null,
+      "status": "Official",
+      "media": [
+        {
+          "track-offset": 0,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "tracks": [
+            {
+              "id": "caac21db-d0b8-3f0b-a01e-4c68c84b3bf5",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "title": "In a Warzone",
+                "length": 127000,
+                "video": false,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "id": "da2b7b36-1eea-4c2a-8842-73bc78cd16a1"
+              },
+              "length": 127089,
+              "title": "In a Warzone",
+              "number": "1"
+            },
+            {
+              "length": null,
+              "number": "2",
+              "title": "See It To Believe It",
+              "id": "2c2ef71b-cc4f-3efa-acdd-db3d9be064bc",
+              "recording": {
+                "title": "See It to Believe It",
+                "disambiguation": "",
+                "video": false,
+                "length": 186000,
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    }
+                  }
+                ],
+                "id": "86092bb7-5a52-4f56-a39e-dadd2e19c72d"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ]
+            },
+            {
+              "length": null,
+              "number": "3",
+              "title": "Back To You",
+              "id": "fec0f558-e64f-3617-8e52-b766160e36ce",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "id": "a11a32f7-8698-415f-b713-3026b479be89",
+                "title": "Back to You",
+                "length": 170000,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "length": null,
+              "title": "Come Around",
+              "number": "4",
+              "id": "480af0ba-992e-3e5a-8aa1-3873dbce3d19",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  }
+                }
+              ],
+              "recording": {
+                "title": "Come Around",
+                "disambiguation": "",
+                "video": false,
+                "length": 159000,
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    }
+                  }
+                ],
+                "id": "00131b8d-3505-4893-92da-e12ca4fc4aaa"
+              }
+            },
+            {
+              "number": "5",
+              "title": "Something's Different",
+              "length": null,
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  }
+                ],
+                "id": "c6d06e2a-88ac-418a-adff-e5b1822917c5",
+                "title": "Something's Different",
+                "video": false,
+                "disambiguation": "",
+                "length": 185000
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "03c039fe-e886-31ef-89b5-4089f2a9237d"
+            },
+            {
+              "title": "Any of Them",
+              "number": "6",
+              "length": null,
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 145000,
+                "title": "Any of Them",
+                "id": "239e3093-a09e-4799-94ef-16d1eac90a3b",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    }
+                  }
+                ]
+              },
+              "id": "6b4ce01c-f9f5-3997-ae73-89519e1881b0"
+            },
+            {
+              "number": "7",
+              "title": "Silence",
+              "length": null,
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "c332d74c-4878-4551-95e7-67b67b13e302",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "length": 110000,
+                "disambiguation": "",
+                "title": "Silence"
+              },
+              "id": "c88a6ec0-28b2-3f39-a827-ca029fc272c5"
+            },
+            {
+              "title": "All Over Again",
+              "number": "8",
+              "length": null,
+              "recording": {
+                "title": "All Over Again",
+                "video": false,
+                "length": 122000,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "6c31f10b-cb14-43e4-879e-b0b749df1bbb"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "id": "8eb47daf-5ea2-3c96-9c1a-0c10251ee024"
+            },
+            {
+              "number": "9",
+              "title": "It’s a Problem",
+              "length": null,
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "recording": {
+                "video": false,
+                "length": 195000,
+                "disambiguation": "",
+                "title": "It’s a Problem",
+                "id": "6a828ed8-17de-4f71-85ed-f45c2bb20bca",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  }
+                ]
+              },
+              "id": "589e773b-210d-3496-8c97-f006d5b711e4"
+            },
+            {
+              "artist-credit": [
+                {
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "id": "21345eec-a9c7-4ad1-b3b7-24f143ae6e14",
+                "title": "Completely Detach",
+                "video": false,
+                "length": 120000,
+                "disambiguation": ""
+              },
+              "id": "dfd516fd-1bd9-3239-9f66-b1e98dd7297c",
+              "title": "Completely Detach",
+              "number": "10",
+              "length": null
+            },
+            {
+              "length": null,
+              "number": "11",
+              "title": "Gravestones and Burial Plots",
+              "id": "90858830-a6e1-3267-abd6-3ba76c4d01b9",
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "0f2e3af0-88ae-4b0b-a02d-cb0606940436",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "length": 165000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Gravestones and Burial Plots"
+              }
+            },
+            {
+              "recording": {
+                "length": 115000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Exit the Wasteland",
+                "id": "9e3e333a-8774-4439-9f80-47d303cf3b78",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  }
+                ]
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "id": "4a474db7-f763-39bf-ac38-e5413bfdd4e8",
+              "number": "12",
+              "title": "Exit the Wasteland",
+              "length": null
+            }
+          ],
+          "position": 1,
+          "track-count": 12,
+          "format": "Digital Media",
+          "title": ""
+        }
+      ],
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "artist-credit": [
+        {
+          "artist": {
+            "sort-name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "name": "Transplants",
+            "disambiguation": ""
+          },
+          "name": "Transplants",
+          "joinphrase": ""
+        }
+      ],
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b"
+    },
+    {
+      "asin": null,
+      "id": "dabfe63c-a88e-4451-886b-59eab1b46773",
+      "barcode": null,
+      "status-id": null,
+      "disambiguation": "",
+      "media": [
+        {
+          "tracks": [
+            {
+              "id": "e3d83e96-23db-3a9e-bcd1-7df15e785ef8",
+              "recording": {
+                "title": "Not Today",
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "artist": {
+                      "sort-name": "Sen Dog",
+                      "id": "1f242c20-f7ad-420c-a130-5e442fd8101e",
+                      "name": "Sen Dog",
+                      "disambiguation": ""
+                    },
+                    "name": "Sen Dog",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "dccfd5f7-77d4-422f-95f3-d91a0b3b9352"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "name": "Transplants",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                },
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Sen Dog",
+                    "id": "1f242c20-f7ad-420c-a130-5e442fd8101e",
+                    "name": "Sen Dog"
+                  },
+                  "name": "Sen Dog",
+                  "joinphrase": ""
+                }
+              ],
+              "length": null,
+              "number": "1",
+              "title": "Not Today"
+            },
+            {
+              "length": null,
+              "number": "2",
+              "title": "Apocalypse Now",
+              "id": "c14c3b24-1b74-3a2b-a4ec-6b2db2748121",
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "1836563c-32d7-41e3-81de-3ffd19e554dc",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "title": "Apocalypse Now"
+              }
+            },
+            {
+              "id": "dad4d3d3-7ba6-3621-97b8-9c7fbc44875f",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "recording": {
+                "title": "Gangsters & Thugs",
+                "video": false,
+                "length": null,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "f7692014-0244-4b58-b454-4481e07c82a4"
+              },
+              "length": null,
+              "number": "3",
+              "title": "Gangsters & Thugs"
+            },
+            {
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "joinphrase": " feat. "
+                },
+                {
+                  "name": "Boo‐Yaa T.R.I.B.E.",
+                  "artist": {
+                    "disambiguation": "American hip hop group from Carson, California",
+                    "name": "Boo‐Yaa T.R.I.B.E.",
+                    "id": "253ba930-9c4c-4f99-b2bf-87b84cefb8f0",
+                    "sort-name": "Boo‐Yaa T.R.I.B.E."
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "b85038f5-ff3a-4959-9a6d-a3043f9c57e4",
+                "artist-credit": [
+                  {
+                    "joinphrase": " feat. ",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    }
+                  },
+                  {
+                    "artist": {
+                      "disambiguation": "American hip hop group from Carson, California",
+                      "sort-name": "Boo‐Yaa T.R.I.B.E.",
+                      "name": "Boo‐Yaa T.R.I.B.E.",
+                      "id": "253ba930-9c4c-4f99-b2bf-87b84cefb8f0"
+                    },
+                    "name": "Boo‐Yaa T.R.I.B.E.",
+                    "joinphrase": ""
+                  }
+                ],
+                "length": 247000,
+                "video": false,
+                "disambiguation": "",
+                "title": "What I Can't Describe"
+              },
+              "id": "ace26cee-4e29-364e-b187-5a7e00f8d4d5",
+              "number": "4",
+              "title": "What I Can't Describe",
+              "length": 247000
+            },
+            {
+              "title": "Doomsday",
+              "number": "5",
+              "length": null,
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "58fa798d-66f3-4f4d-aa4f-a89fd01b99a7",
+                "title": "Doomsday",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "id": "30d18b08-e100-3e16-b2a6-2a521bb6123d"
+            },
+            {
+              "length": null,
+              "title": "Killafornia",
+              "number": "6",
+              "id": "2ecc564a-0f67-30aa-8e2b-01c939bf6ddb",
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants"
+                },
+                {
+                  "joinphrase": "",
+                  "name": "B‐Real",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "B‐Real",
+                    "id": "9c8b5123-d994-4c0c-85c0-465636ae241e",
+                    "sort-name": "B‐Real"
+                  }
+                }
+              ],
+              "recording": {
+                "title": "Killafornia",
+                "video": false,
+                "length": null,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "joinphrase": " feat. ",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  },
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "B‐Real",
+                      "id": "9c8b5123-d994-4c0c-85c0-465636ae241e",
+                      "sort-name": "B‐Real"
+                    },
+                    "name": "B‐Real"
+                  }
+                ],
+                "id": "3b1c8d67-cc81-48ea-b052-11f6e785b1a7"
+              }
+            },
+            {
+              "recording": {
+                "title": "American Guns",
+                "video": false,
+                "length": null,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "5f4b00ed-791f-4437-8865-010ca92f3a96"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "id": "40e50024-89e8-37b2-a4db-81c1f3dfdc49",
+              "number": "7",
+              "title": "American Guns",
+              "length": null
+            },
+            {
+              "number": "8",
+              "title": "Madness",
+              "length": null,
+              "recording": {
+                "title": "Madness",
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "e286821a-628a-478e-9b2e-3e6c691d8263"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "id": "5fc1b67f-3b4e-3d3a-a87b-dfc17c7b8485"
+            },
+            {
+              "length": null,
+              "number": "9",
+              "title": "Hit the Fence",
+              "id": "0a559560-b11b-34b8-aaf3-cdb8a7b0d412",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "title": "Hit the Fence",
+                "id": "bd29b90c-466c-4db3-a570-c5f2627e2d4c",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    }
+                  }
+                ]
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "name": "Transplants"
+                }
+              ]
+            },
+            {
+              "artist-credit": [
+                {
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "fbb65414-1afb-4dbf-b509-0ce41a32e10c",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    }
+                  }
+                ],
+                "length": null,
+                "video": false,
+                "disambiguation": "",
+                "title": "Red Dawn"
+              },
+              "id": "74cb1c91-a806-3b5a-8473-40bc2bd52719",
+              "number": "10",
+              "title": "Red Dawn",
+              "length": null
+            },
+            {
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "title": "Pay Any Price",
+                "id": "3df12993-e75e-4a68-8f19-97ff5f7613d2",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ]
+              },
+              "id": "cdef1230-cadb-3dc4-aaa2-85626f678019",
+              "title": "Pay Any Price",
+              "number": "11",
+              "length": null
+            },
+            {
+              "length": null,
+              "number": "12",
+              "title": "1,2,3,4,5,6,7",
+              "id": "2d5340c8-53c3-31ab-918c-63ddb98c72ce",
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "disambiguation": ""
+                    }
+                  }
+                ],
+                "id": "122948bc-1239-4681-97f2-da653d4dc945",
+                "title": "1,2,3,4,5,6,7",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "length": null,
+              "title": "I Want It All",
+              "number": "13",
+              "id": "e766fe87-4dc8-3983-b29a-2a36a6b4bd44",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "recording": {
+                "id": "f47d3a96-7a43-414a-a40c-cf12a35bd0f6",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "title": "I Want It All"
+              }
+            },
+            {
+              "id": "c0ddc604-5e0a-3523-85f3-7b4ec4d2e473",
+              "artist-credit": [
+                {
+                  "joinphrase": " feat. ",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                  },
+                  "name": "Transplants"
+                },
+                {
+                  "artist": {
+                    "disambiguation": "member of Dilated Peoples",
+                    "id": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+                    "name": "Rakaa Iriscience",
+                    "sort-name": "Rakaa Iriscience"
+                  },
+                  "name": "Rakaa",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "181463cd-54d9-4c19-8557-be6e7c75cca4",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": " feat. "
+                  },
+                  {
+                    "joinphrase": "",
+                    "name": "Rakaa",
+                    "artist": {
+                      "sort-name": "Rakaa Iriscience",
+                      "name": "Rakaa Iriscience",
+                      "id": "a1c23001-af49-4f2e-8e62-06346a734eeb",
+                      "disambiguation": "member of Dilated Peoples"
+                    }
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "title": "Crash and Burn"
+              },
+              "length": null,
+              "number": "14",
+              "title": "Crash and Burn"
+            }
+          ],
+          "format-id": null,
+          "track-offset": 0,
+          "title": "",
+          "format": null,
+          "track-count": 14,
+          "position": 1
+        }
+      ],
+      "status": null,
+      "cover-art-archive": {
+        "front": false,
+        "darkened": false,
+        "back": false,
+        "count": 0,
+        "artwork": false
+      },
+      "artist-credit": [
+        {
+          "joinphrase": "",
+          "name": "Transplants",
+          "artist": {
+            "sort-name": "Transplants",
+            "name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "label-info": [],
+      "quality": "normal",
+      "title": "Haunted Cities",
+      "packaging": null,
+      "packaging-id": null
+    },
+    {
+      "label-info": [
+        {
+          "label": {
+            "id": "5c5e0ca2-8819-4b3b-8b43-59943780c2b6",
+            "name": "Hellcat Records",
+            "label-code": null,
+            "sort-name": "Hellcat Records",
+            "disambiguation": ""
+          },
+          "catalog-number": "0448-2"
+        }
+      ],
+      "title": "Transplants",
+      "packaging": "Cardboard/Paper Sleeve",
+      "release-events": [
+        {
+          "date": "2003-01-07",
+          "area": {
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "sort-name": "Germany"
+          }
+        }
+      ],
+      "barcode": "8714092044829",
+      "id": "de1c6fbc-46e5-4e16-bad9-1b94910dcf96",
+      "date": "2003-01-07",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "front": false,
+        "back": false,
+        "darkened": false,
+        "count": 0,
+        "artwork": false
+      },
+      "country": "DE",
+      "disambiguation": "",
+      "artist-credit": [
+        {
+          "artist": {
+            "sort-name": "Transplants",
+            "name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "disambiguation": ""
+          },
+          "name": "Transplants",
+          "joinphrase": ""
+        }
+      ],
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": "B00006J9K7",
+      "status": "Official",
+      "media": [
+        {
+          "position": 1,
+          "format": "CD",
+          "track-count": 12,
+          "title": "",
+          "track-offset": 0,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "title": "Romper Stomper",
+              "number": "1",
+              "length": 199000,
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "90217fb7-647d-4960-a76a-01cb96997213",
+                "title": "Romper Stomper",
+                "disambiguation": "",
+                "video": false,
+                "length": 198600
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "id": "4c225b3a-a4ec-3b48-b803-4bcba15cb723"
+            },
+            {
+              "title": "Tall Cans in the Air",
+              "number": "2",
+              "length": 224000,
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "id": "d16bfe48-0bea-4f82-b9b5-67152355989a",
+                "title": "Tall Cans in the Air",
+                "disambiguation": "",
+                "video": false,
+                "length": 224454
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "82513c79-6ed4-3ca1-b108-8ec1cdbb0903"
+            },
+            {
+              "title": "D.J. D.J.",
+              "number": "3",
+              "length": 241000,
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "length": 241000,
+                "video": false,
+                "disambiguation": "",
+                "title": "D.J. D.J.",
+                "id": "eda69e91-bfbd-4c50-ab8a-747b34610d9f",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ]
+              },
+              "id": "cd48480b-00dc-3c8d-9e88-d9fef42ba778"
+            },
+            {
+              "id": "a8a2609b-d01c-3841-82b0-d0f9f2606ac4",
+              "artist-credit": [
+                {
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 241000,
+                "title": "Diamonds and Guns",
+                "id": "4e1666fc-c36d-4eba-9b42-77011c5a7170",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ]
+              },
+              "length": 242000,
+              "number": "4",
+              "title": "Diamonds and Guns"
+            },
+            {
+              "length": 216000,
+              "number": "5",
+              "title": "Quick Death",
+              "id": "9e9c97f8-57f5-319f-b468-d098d4edb045",
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "10f7bd89-a274-4bc2-85aa-640eec48d71a",
+                "title": "Quick Death",
+                "video": false,
+                "disambiguation": "",
+                "length": 214000
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "id": "a380a90d-4ed5-316a-b67b-53791a3be738",
+              "recording": {
+                "title": "Sad but True",
+                "disambiguation": "",
+                "video": false,
+                "length": 266000,
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ],
+                "id": "72faeab2-5eb9-4d2e-b894-a78f6289e6cd"
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "length": 266000,
+              "title": "Sad but True",
+              "number": "6"
+            },
+            {
+              "id": "1e13ee6d-ee92-31a7-90d8-7f42c9cb4498",
+              "artist-credit": [
+                {
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "title": "Weigh on My Mind",
+                "disambiguation": "",
+                "video": false,
+                "length": 202000,
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    }
+                  }
+                ],
+                "id": "ea4dc632-cf48-4379-bc14-f6480ef0162e"
+              },
+              "length": 202000,
+              "title": "Weigh on My Mind",
+              "number": "7"
+            },
+            {
+              "length": 121000,
+              "title": "One Seventeen",
+              "number": "8",
+              "id": "1470f84b-74cc-3678-a2d0-2c05d5bcfde9",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "id": "c0ff2a65-3f82-4059-b198-93e16b828de7",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "video": false,
+                "length": 121440,
+                "disambiguation": "",
+                "title": "One Seventeen"
+              }
+            },
+            {
+              "length": 245000,
+              "title": "California Babylon",
+              "number": "9",
+              "id": "93e3ae25-8f38-38ef-aee1-0d8eabef5ae1",
+              "recording": {
+                "length": 245000,
+                "video": false,
+                "disambiguation": "",
+                "title": "California Babylon",
+                "id": "82be2f95-19c7-4797-89f4-11bfe27ed79a",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "name": "Transplants"
+                  }
+                ]
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ]
+            },
+            {
+              "recording": {
+                "length": 275840,
+                "video": false,
+                "disambiguation": "",
+                "title": "We Trusted You",
+                "id": "67015d91-cb37-4750-921b-aa36c713230c",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  }
+                ]
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "b4c74ed8-8edd-332c-b58e-865198bfbba9",
+              "title": "We Trusted You",
+              "number": "10",
+              "length": 276000
+            },
+            {
+              "length": 282000,
+              "number": "11",
+              "title": "D.R.E.A.M.",
+              "id": "e2089241-695c-3701-badc-b865c4007f4e",
+              "recording": {
+                "id": "eb4bb5fc-51f6-447d-ba7b-f1691c39b105",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "length": 282000,
+                "video": false,
+                "disambiguation": "",
+                "title": "D.R.E.A.M."
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "length": 203000,
+              "title": "Down in Oakland",
+              "number": "12",
+              "id": "38613d9b-5ca5-3eae-9a6e-61d6679d3c9e",
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "aedaac04-408f-40e0-931d-2aff478a1983",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 203000,
+                "title": "Down in Oakland"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "In a Warzone",
+      "packaging": "Jewel Case",
+      "label-info": [
+        {
+          "label": {
+            "disambiguation": "",
+            "sort-name": "Epitaph",
+            "id": "1bfd06be-a6ed-4ced-8159-7d4d2923a40c",
+            "name": "Epitaph",
+            "label-code": null
+          },
+          "catalog-number": "87263-2"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "date": "2013-06-25",
+      "disambiguation": "",
+      "country": "US",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": false,
+        "count": 1,
+        "artwork": true,
+        "front": true
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States"
+          },
+          "date": "2013-06-25"
+        }
+      ],
+      "id": "ff9a58f5-e19e-4482-9f67-6baaf33f0840",
+      "barcode": "045778726325",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "artist-credit": [
+        {
+          "joinphrase": "",
+          "artist": {
+            "disambiguation": "",
+            "name": "Transplants",
+            "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+            "sort-name": "Transplants"
+          },
+          "name": "Transplants"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "media": [
+        {
+          "title": "",
+          "format": "CD",
+          "track-count": 12,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "tracks": [
+            {
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    }
+                  }
+                ],
+                "id": "da2b7b36-1eea-4c2a-8842-73bc78cd16a1",
+                "title": "In a Warzone",
+                "video": false,
+                "disambiguation": "",
+                "length": 127000
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "id": "dd9b558b-3b87-4725-8286-1bbe798284db",
+              "number": "1",
+              "title": "In a Warzone",
+              "length": 127000
+            },
+            {
+              "id": "41cf65e0-3dbe-497a-8774-594852bfa750",
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "recording": {
+                "id": "86092bb7-5a52-4f56-a39e-dadd2e19c72d",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 186000,
+                "title": "See It to Believe It"
+              },
+              "length": 186000,
+              "number": "2",
+              "title": "See It to Believe It"
+            },
+            {
+              "recording": {
+                "id": "a11a32f7-8698-415f-b713-3026b479be89",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    }
+                  }
+                ],
+                "disambiguation": "",
+                "video": false,
+                "length": 170000,
+                "title": "Back to You"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants"
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "id": "278efe98-4758-415e-93ee-393f0a1f37b6",
+              "title": "Back to You",
+              "number": "3",
+              "length": 170000
+            },
+            {
+              "length": 159000,
+              "number": "4",
+              "title": "Come Around",
+              "id": "7da32957-ee1b-4786-ba52-f90ea238340a",
+              "recording": {
+                "title": "Come Around",
+                "video": false,
+                "length": 159000,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "00131b8d-3505-4893-92da-e12ca4fc4aaa"
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "number": "5",
+              "title": "Something's Different",
+              "length": 185000,
+              "recording": {
+                "id": "c6d06e2a-88ac-418a-adff-e5b1822917c5",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "disambiguation": "",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants"
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 185000,
+                "title": "Something's Different"
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "id": "4a03b1c1-af45-4aac-b16e-ed5eedb09967"
+            },
+            {
+              "title": "Any of Them",
+              "number": "6",
+              "length": 145000,
+              "recording": {
+                "id": "239e3093-a09e-4799-94ef-16d1eac90a3b",
+                "artist-credit": [
+                  {
+                    "name": "Transplants",
+                    "artist": {
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "joinphrase": ""
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 145000,
+                "title": "Any of Them"
+              },
+              "artist-credit": [
+                {
+                  "name": "Transplants",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "joinphrase": ""
+                }
+              ],
+              "id": "71a4869f-f6b6-42d5-80ad-ef67c06f5a29"
+            },
+            {
+              "length": 110000,
+              "number": "7",
+              "title": "Silence",
+              "id": "f93cf4a8-1636-4758-9f60-11aa0cb7e3fa",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  }
+                }
+              ],
+              "recording": {
+                "id": "c332d74c-4878-4551-95e7-67b67b13e302",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "artist": {
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "sort-name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants"
+                  }
+                ],
+                "disambiguation": "",
+                "video": false,
+                "length": 110000,
+                "title": "Silence"
+              }
+            },
+            {
+              "length": 122000,
+              "title": "All Over Again",
+              "number": "8",
+              "id": "e0483d24-5cd1-4b9a-a377-621f66f5e675",
+              "recording": {
+                "title": "All Over Again",
+                "video": false,
+                "length": 122000,
+                "disambiguation": "",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ],
+                "id": "6c31f10b-cb14-43e4-879e-b0b749df1bbb"
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ]
+            },
+            {
+              "length": 195000,
+              "number": "9",
+              "title": "It’s a Problem",
+              "id": "ac38fa8e-a295-4d6f-82c4-8175cc76bce3",
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "recording": {
+                "id": "6a828ed8-17de-4f71-85ed-f45c2bb20bca",
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ],
+                "video": false,
+                "disambiguation": "",
+                "length": 195000,
+                "title": "It’s a Problem"
+              }
+            },
+            {
+              "id": "2e8faa52-fd16-4de7-938d-26e88ac76172",
+              "recording": {
+                "artist-credit": [
+                  {
+                    "joinphrase": "",
+                    "name": "Transplants",
+                    "artist": {
+                      "disambiguation": "",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "sort-name": "Transplants"
+                    }
+                  }
+                ],
+                "id": "21345eec-a9c7-4ad1-b3b7-24f143ae6e14",
+                "title": "Completely Detach",
+                "video": false,
+                "disambiguation": "",
+                "length": 120000
+              },
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "name": "Transplants",
+                  "artist": {
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "sort-name": "Transplants",
+                    "disambiguation": ""
+                  }
+                }
+              ],
+              "length": 120000,
+              "number": "10",
+              "title": "Completely Detach"
+            },
+            {
+              "number": "11",
+              "title": "Gravestones and Burial Plots",
+              "length": 165000,
+              "recording": {
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "sort-name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                      "name": "Transplants",
+                      "disambiguation": ""
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "id": "0f2e3af0-88ae-4b0b-a02d-cb0606940436",
+                "title": "Gravestones and Burial Plots",
+                "video": false,
+                "disambiguation": "",
+                "length": 165000
+              },
+              "artist-credit": [
+                {
+                  "artist": {
+                    "disambiguation": "",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "name": "Transplants",
+                    "sort-name": "Transplants"
+                  },
+                  "name": "Transplants",
+                  "joinphrase": ""
+                }
+              ],
+              "id": "9434936c-4ca9-4a28-b0b6-c0da3cbb6fe8"
+            },
+            {
+              "title": "Exit the Wasteland",
+              "number": "12",
+              "length": 115000,
+              "artist-credit": [
+                {
+                  "joinphrase": "",
+                  "artist": {
+                    "sort-name": "Transplants",
+                    "name": "Transplants",
+                    "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699",
+                    "disambiguation": ""
+                  },
+                  "name": "Transplants"
+                }
+              ],
+              "recording": {
+                "id": "9e3e333a-8774-4439-9f80-47d303cf3b78",
+                "artist-credit": [
+                  {
+                    "artist": {
+                      "disambiguation": "",
+                      "sort-name": "Transplants",
+                      "name": "Transplants",
+                      "id": "29f3e1bf-aec1-4d0a-9ef3-0cb95e8a3699"
+                    },
+                    "name": "Transplants",
+                    "joinphrase": ""
+                  }
+                ],
+                "disambiguation": "",
+                "video": false,
+                "length": 115000,
+                "title": "Exit the Wasteland"
+              },
+              "id": "c7977ab5-87ac-44fe-8e54-5f082658a3b0"
+            }
+          ],
+          "track-offset": 0
+        }
+      ],
+      "status": "Official",
+      "asin": "B00C9U9YPG"
+    }
+  ]
+}
