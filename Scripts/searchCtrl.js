@@ -1,6 +1,6 @@
 ﻿var app = angular.module("musicsearchApp", []);
 app.controller("searchCtrl",
-    function($scope, $http) {
+    function ($scope, $http) {
         $scope.showResults = false;
         $scope.favourites = {};
         $scope.shortListArtist = {};
@@ -10,25 +10,27 @@ app.controller("searchCtrl",
         $scope.InitializeFromLocalStorage = function () {
 
             if (localStorage) {
-                //if (storageName === "favourites") {
                 var favouriteslist = localStorage.favourites;
-                $scope.favourites = JSON.parse(favouriteslist);
-                //}
 
-                //if (storageName === "shortlist") {
+                if (favouriteslist) {
+                    $scope.favourites = JSON.parse(favouriteslist);
+                }
+
                 var shortlist = localStorage.shortListArtist;
-                $scope.shortListArtist = JSON.parse(shortlist);
-                //}
+                if (shortlist) {
+                    $scope.shortListArtist = JSON.parse(shortlist);
+                }
+
             } else {
                 Console.log("Localstorage Not available");
             }
-            
+
         };
 
         // Intialize values from LocalStorage
         $scope.InitializeFromLocalStorage();
-        
-        
+
+
         var siteUrl = "http://musicbrainz.org/ws/2";
         var lastFmApiUrl =
             "http://ws.audioscrobbler.com/2.0/?method=artist.search&api_key=36ec72d3d051ac287de9bed61fe2657e&format=json&artist=";
@@ -44,7 +46,7 @@ app.controller("searchCtrl",
         });
 
         $("#search")
-            .click(function() {
+            .click(function () {
 
                 $scope.showResults = false;
                 if ($("#query").val() === '') {
@@ -64,29 +66,29 @@ app.controller("searchCtrl",
                 console.log(searchUrl);
 
                 $http.get(searchUrl)
-                    .then(function(response) {
-                            console.log('Artist search successful');
+                    .then(function (response) {
+                        console.log('Artist search successful');
 
-                            if (response.data.artists && response.data.artists.length === 0) {
-                                alert("No artists found");
-                                return;
-                            }
+                        if (response.data.artists && response.data.artists.length === 0) {
+                            alert("No artists found");
+                            return;
+                        }
 
-                            if (response.data.artists) {
-                                $scope.artists = $scope.MapToList(response.data.artists, true);
-                                return;
-                            }
+                        if (response.data.artists) {
+                            $scope.artists = $scope.MapToList(response.data.artists, true);
+                            return;
+                        }
 
-                            if (response.data.results && response.data.results.artistmatches.artist) {
-                                $scope.artists = $scope.MapToList(response.data.results.artistmatches.artist, true);
-                            }
-                        },
-                        function(error) {
+                        if (response.data.results && response.data.results.artistmatches.artist) {
+                            $scope.artists = $scope.MapToList(response.data.results.artistmatches.artist, true);
+                        }
+                    },
+                        function (error) {
                             console.log("Error message from search query" + error.message);
                         });
             });
 
-        $scope.getReleases = function(artistid, index) {
+        $scope.getReleases = function (artistid, index) {
             var releaseUrl = siteUrl + "/release?artist=" + artistid + "&inc=labels+recordings&fmt=json";
             console.log(releaseUrl);
 
@@ -115,29 +117,29 @@ app.controller("searchCtrl",
 
             if ($(filterdValue) && $(filterdValue)[0].releases.length === 0) {
                 $http.get(releaseUrl)
-                    .then(function(response) {
-                            console.log('Artists releases retreived');
-                            // Identify the artist record and append its releases
-                            if (response.data.releases.length > 0 && filterdValue) {
-                                $(filterdValue)[0].releases = $scope.MapToList(response.data.releases, isArtist);
-                                $resultsElement.className = "show";
-                            } else {
-                                $resultsElement.className = "hide";
-                                $showElement.className = "show";
-                                $hideElement.className = "hide";
-                                alert("No releases found");
-                            }
-                        },
-                        function(error) {
+                    .then(function (response) {
+                        console.log('Artists releases retreived');
+                        // Identify the artist record and append its releases
+                        if (response.data.releases.length > 0 && filterdValue) {
+                            $(filterdValue)[0].releases = $scope.MapToList(response.data.releases, isArtist);
+                            $resultsElement.className = "show";
+                        } else {
+                            $resultsElement.className = "hide";
+                            $showElement.className = "show";
+                            $hideElement.className = "hide";
+                            alert("No releases found");
+                        }
+                    },
+                        function (error) {
                             console.log("Error message from search query" + error.message);
                         });
             }
             $scope.showResults = !$scope.showResults;
         };
 
-        $scope.artistFilter = function(id) {
+        $scope.artistFilter = function (id) {
             var filterList = jQuery.grep($scope.artists,
-                function(art) {
+                function (art) {
                     console.log("Artist Id = " + art.mbid);
                     if (art.mbid === id) {
                         console.log("Id found to set releases" + id);
@@ -148,17 +150,17 @@ app.controller("searchCtrl",
             return filterList;
         };
 
-        $scope.MapToList = function(items, isArtist) {
+        $scope.MapToList = function (items, isArtist) {
             var list = [];
             $(items)
-                .each(function(i, item) {
+                .each(function (i, item) {
                     var newItem = isArtist === true ? $scope.MapToArtist(item) : $scope.MapToRelease(item);
                     list.push(newItem);
                 });
             return list;
         };
 
-        $scope.MapToArtist = function(artistSource) {
+        $scope.MapToArtist = function (artistSource) {
             return {
                 name: artistSource.name,
                 mbid: artistSource.mbid || artistSource.id,
@@ -170,7 +172,7 @@ app.controller("searchCtrl",
             };
         };
 
-        $scope.MapToRelease = function(releaseSource) {
+        $scope.MapToRelease = function (releaseSource) {
             return {
                 title: releaseSource.title,
                 label: releaseSource["label-info"][0] ? releaseSource["label-info"][0].label.name : '',
@@ -180,10 +182,10 @@ app.controller("searchCtrl",
             };
         };
 
-        $scope.addToShortList = function(mbid, name) {
+        $scope.addToShortList = function (mbid, name) {
             $scope.shortListArtist[mbid] = name;
             console.log($scope.shortListArtist);
-            if(localStorage){
+            if (localStorage) {
                 localStorage.setItem("shortListArtist", JSON.stringify($scope.shortListArtist));
             }
         }
@@ -208,7 +210,7 @@ app.controller("searchCtrl",
             $scope.updateFavouritesToStorage();
         };
 
-        $scope.updateFavouritesToStorage = function() {
+        $scope.updateFavouritesToStorage = function () {
             if (localStorage) {
                 localStorage.setItem("favourites", JSON.stringify($scope.favourites));
             }
