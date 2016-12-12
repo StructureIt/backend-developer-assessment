@@ -6,6 +6,29 @@ app.controller("searchCtrl",
         $scope.shortListArtist = {};
 
         console.log("Application started");
+
+        $scope.InitializeFromLocalStorage = function () {
+
+            if (localStorage) {
+                //if (storageName === "favourites") {
+                var favouriteslist = localStorage.favourites;
+                $scope.favourites = JSON.parse(favouriteslist);
+                //}
+
+                //if (storageName === "shortlist") {
+                var shortlist = localStorage.shortListArtist;
+                $scope.shortListArtist = JSON.parse(shortlist);
+                //}
+            } else {
+                Console.log("Localstorage Not available");
+            }
+            
+        };
+
+        // Intialize values from LocalStorage
+        $scope.InitializeFromLocalStorage();
+        
+        
         var siteUrl = "http://musicbrainz.org/ws/2";
         var lastFmApiUrl =
             "http://ws.audioscrobbler.com/2.0/?method=artist.search&api_key=36ec72d3d051ac287de9bed61fe2657e&format=json&artist=";
@@ -143,7 +166,7 @@ app.controller("searchCtrl",
                 image: artistSource.image || [],
                 releases: [],
                 show: true,
-                isFavorite: false
+                isFavourite: false
             };
         };
 
@@ -153,7 +176,7 @@ app.controller("searchCtrl",
                 label: releaseSource["label-info"][0] ? releaseSource["label-info"][0].label.name : '',
                 numberOfTracks: releaseSource.media[0]["track-count"],
                 date: releaseSource.date && releaseSource.date.split('-') ? releaseSource.date.split('-')[0] : '',
-                isFavorite: false
+                isFavourite: false
             };
         };
 
@@ -166,7 +189,7 @@ app.controller("searchCtrl",
         }
 
         //rel.title(title of the release), art(entire artist object)
-        $scope.addToFavourites = function(key, value) {
+        $scope.addToFavourites = function (key, value) {
             $scope.favourites[key] = value;
             console.log('After adding items');
             console.log($scope.favourites);
@@ -174,10 +197,10 @@ app.controller("searchCtrl",
             $scope.updateFavouritesToStorage();
         };
 
-        $scope.removeFromFavourites = function(mbid, name) {
-            if ($scope.favourites.hasOwnProperty(mbid)) {
+        $scope.removeFromFavourites = function (key, value) {
+            if ($scope.favourites.hasOwnProperty(key)) {
                 // Remove item
-                delete $scope.favourites[mbid];
+                delete $scope.favourites[key];
             }
             console.log('After Item removed from favourites');
             console.log($scope.favourites);
@@ -191,18 +214,5 @@ app.controller("searchCtrl",
             }
         };
 
-        $scope.returnFromLocalStorage = function (storageName) {
-            
-            if (storageName === "favourites") {
-                var itemsRetrieved = localStorage.favourites;
-                $scope.favourites = JSON.parse(itemsRetrieved);
-            }
-
-            if (storageName === "shortlist") {
-                var shortlist = localStorage.shortListArtist;
-                $scope.shortListArtist = JSON.parse(shortlist);
-            }
-            return {key:"NoItems", value:"No short listed Items"};
-        };
-        
+        $('[data-toggle="tooltip"]').tooltip();
     });

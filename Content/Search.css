@@ -1,0 +1,30 @@
+﻿footer {
+    background-color: #fff;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.yellowPointer {
+    cursor: pointer;
+    color: yellow;
+}
+
+.bluePointer {
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+.grayBorder {
+    border-bottom: 1px solid gray;
+}
+
+.redPointer {
+    cursor: pointer;
+    color: red;
+}
+
+.greenPointer {
+    cursor: pointer;
+    color: green;
+}

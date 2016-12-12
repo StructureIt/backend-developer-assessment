@@ -6,7 +6,8 @@
 	<title>Search - Music Store</title>
 
 	<!--<link href="/Content/site.css" rel="stylesheet">-->
-	<link href="Content/bootstrap.css" rel="stylesheet">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Search.css" rel="stylesheet" />
 	<script src="Scripts/modernizr-2.6.2.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
 	<script src="Scripts/jquery-1.10.2.js"></script>
@@ -16,14 +17,6 @@
 	<script src="Scripts/jquery.validate-vsdoc.js"></script>
 	<script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/searchCtrl.js"></script>
-    <style>
-        footer {
-            background-color: #fff;
-            width: 100%;
-            bottom: 0;
-            position: fixed;
-        }
-    </style>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-default">
@@ -33,8 +26,8 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li><a href="MusicBrainz.html">MusicBrainz</a></li>
-				<li><a href="LastFM.html"><i class="glyphicon glyphicon-headphones" style="color: red;"></i> Last fm</a></li>
-				<li class="active"><a href="Favourites.html"><i class="glyphicon glyphicon-star" style="color:yellow;"></i> Favorites</a></li>
+				<li><a href="LastFM.html"><i class="glyphicon glyphicon-headphones redPointer"></i> Last fm</a></li>
+				<li class="active"><a href="Favourites.html"><i class="glyphicon glyphicon-star yellowPointer"></i> Favorites</a></li>
 				<li><a href="/Help">API</a></li>
 			</ul>
 		</div>
@@ -48,11 +41,11 @@
 						<div class="col-md-1 col-sm-1 col-xs-1" style="font-size: large; font-weight: bold;"></div>
 						<div class="col-md-11 col-sm-11 col-xs-11" style="font-size: large; font-weight: bold;">Artist name</div>
 					</div>
-					<div ng-init="returnFromLocalStorage('favourites')">
+					<div>
 						<div ng-repeat="release in favourites track by $index">
-							<div style="border-bottom: 1px solid gray; line-height: 4em; vertical-align: middle;">
+							<div clss="grayBorder" style="line-height: 4em; vertical-align: middle;">
 								<div class="col-md-1 col-sm-1 col-xs-1">
-									<i class="glyphicon glyphicon-minus-sign" style="cursor: pointer;color: red;" id="favItem{{$index}}" ng-click="removeFromFavourites(release, release.name)"></i>
+									<i class="glyphicon glyphicon-minus-sign redPointer" id="favItem{{$index}}" ng-click="removeFromFavourites(release, release.name)"></i>
 								</div>
 								<div class="col-md-8 col-sm-6 col-xs-3" style="text-end-overflow: ellipsis;">{{release.name}}</div>
                                 <a href="#" style="text-decoration: none !important;"><div class="col-md-3 col-sm-5 col-xs-8">Show releases</div></a>
@@ -70,7 +63,7 @@
 									</thead>
 									<tbody data-ng-repeat="rel in release.releases">
 										<tr>
-											<td><i class="glyphicon glyphicon-star" style="color: cornflowerblue;"></i></td> <!--ng-show="rel.title === release.title"-->
+											<td><i ng-class="[rel.isFavourite ? 'yellowPointer' : 'bluePointer']" class="glyphicon glyphicon-star"></i></td>
 											<td>{{rel.date}}</td>
 											<td>{{rel.title}}</td>
 											<td>{{rel.label}}</td>
@@ -85,16 +78,16 @@
 
 				<div ng-model="shortListArtist">
 					<h2>My short list.</h2>
-					<div class="container" ng-init="returnFromLocalStorage('shortlist')">
+					<div class="container">
 						<div class="row">
 							<div class="col-md-1 col-sm-1 col-xs-1" style="font-size: large; font-weight: bold;"></div>
 							<div class="col-md-11 col-sm-11 col-xs-11" style="font-size: large; font-weight: bold;">Artist name</div>
 						</div>
 						<div data-ng-repeat="artist in shortListArtist track by $index">
 							<div class="row">
-								<div style="border-bottom: 1px solid gray; line-height: 2em; vertical-align: middle;">
+								<div class ="grayBorder" style="line-height: 2em; vertical-align: middle;">
 									<div class="col-md-1 col-sm-1 col-xs-1">
-										<i class="glyphicon glyphicon-star" style="color: cornflowerblue;" id="favArtist{{$index}}"></i>
+										<i class="glyphicon glyphicon-star bluePointer" id="favArtist{{$index}}"></i>
 									</div>
 									<div class="col-md-9 col-sm-9 col-xs-9">{{artist}}</div>
 									<div class="col-md-2 col-sm-2 col-xs-2"></div>
