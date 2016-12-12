@@ -93,6 +93,7 @@ app.controller("searchCtrl",
             console.log(releaseUrl);
 
             var isArtist = false;
+            //TODO: Can use $scope.toggleReleases(index); but cant take chance now
             var $showElement = document.getElementById("show" + index);
             var $hideElement = document.getElementById("hide" + index);
             var $resultsElement = document.getElementById("results" + index);
@@ -190,16 +191,17 @@ app.controller("searchCtrl",
             }
         }
 
-        //rel.title(title of the release), art(entire artist object)
+        //rel.title(title of the release) use mbid+artistname for uniqueness, art(entire artist object)
         $scope.addToFavourites = function (key, value) {
-            $scope.favourites[key] = value;
+            $scope.favourites[key] = { "releasetitle": key, "value": value };
             console.log('After adding items');
             console.log($scope.favourites);
 
             $scope.updateFavouritesToStorage();
         };
 
-        $scope.removeFromFavourites = function (key, value) {
+        //From UI call removeFromFavourites("releasetitle": mbid + artistname) and remove value attribute
+        $scope.removeFromFavourites = function (key) {
             if ($scope.favourites.hasOwnProperty(key)) {
                 // Remove item
                 delete $scope.favourites[key];
@@ -215,6 +217,31 @@ app.controller("searchCtrl",
                 localStorage.setItem("favourites", JSON.stringify($scope.favourites));
             }
         };
+       
+        // Used from Favourites screen to toggle results
+        $scope.toggleReleases = function (index) {
+
+            var $showElement = document.getElementById("show" + index);
+            var $hideElement = document.getElementById("hide" + index);
+            var $resultsElement = document.getElementById("results" + index);
+
+            if ($showElement.className === "hide") {
+                $showElement.className = "show";
+                $hideElement.className = "hide";
+                $resultsElement.className = "hide";
+            } else {
+                $showElement.className = "hide";
+                $hideElement.className = "show";
+                $resultsElement.className = "show";
+            }
+        };
 
         $('[data-toggle="tooltip"]').tooltip();
+
+        $scope.trashFavourites = function () {
+            if (window.localStorage) {
+                window.localStorage.removeItem("favourites");
+                window.localStorage.removeItem("shortListArtist");
+            }
+        };
     });

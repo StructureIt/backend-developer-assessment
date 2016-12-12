@@ -1,107 +1,111 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Search - Music Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Music Store</title>
 
-	<!--<link href="/Content/site.css" rel="stylesheet">-->
+    <!--<link href="/Content/site.css" rel="stylesheet">-->
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/Search.css" rel="stylesheet" />
-	<script src="Scripts/modernizr-2.6.2.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
-	<script src="Scripts/jquery-1.10.2.js"></script>
-	<script src="Scripts/jquery.validate.min.js"></script>
-	<script src="Scripts/jquery.validate.unobtrusive.min.js"></script>
-	<script src="Scripts/jquery-1.10.2.min.js"></script>
-	<script src="Scripts/jquery.validate-vsdoc.js"></script>
-	<script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/jquery.validate.min.js"></script>
+    <script src="Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/jquery.validate-vsdoc.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/searchCtrl.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Nav Music Xbox</a>
-			</div>
-			<ul class="nav navbar-nav">
-				<li><a href="MusicBrainz.html">MusicBrainz</a></li>
-				<li><a href="LastFM.html"><i class="glyphicon glyphicon-headphones redPointer"></i> Last fm</a></li>
-				<li class="active"><a href="Favourites.html"><i class="glyphicon glyphicon-star yellowPointer"></i> Favorites</a></li>
-				<li><a href="/Help">API</a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="container body-content">
-		<div class="container" ng-app="musicsearchApp" ng-controller="searchCtrl">
-			<div ng-model="favourites">
-				<h2>Favourites</h2>
-				<div id="favDialog">
-					<div class="row">
-						<div class="col-md-1 col-sm-1 col-xs-1" style="font-size: large; font-weight: bold;"></div>
-						<div class="col-md-11 col-sm-11 col-xs-11" style="font-size: large; font-weight: bold;">Artist name</div>
-					</div>
-					<div>
-						<div ng-repeat="release in favourites track by $index">
-							<div clss="grayBorder" style="line-height: 4em; vertical-align: middle;">
-								<div class="col-md-1 col-sm-1 col-xs-1">
-									<i class="glyphicon glyphicon-minus-sign redPointer" id="favItem{{$index}}" ng-click="removeFromFavourites(release, release.name)"></i>
-								</div>
-								<div class="col-md-8 col-sm-6 col-xs-3" style="text-end-overflow: ellipsis;">{{release.name}}</div>
-                                <a href="#" style="text-decoration: none !important;"><div class="col-md-3 col-sm-5 col-xs-8">Show releases</div></a>
-							</div>
-							<div class="row col-md-12" id="results{{$index}}" ng-show="release.releases.length > 0">
-								<table class="table table-responsive">
-									<thead class="thead-default">
-										<tr>
-											<td></td>
-											<td style='font-size: small; font-weight: bold'>Year</td>
-											<td style='font-size: small; font-weight: bold'>Title</td>
-											<td style='font-size: small; font-weight: bold'>Release Label</td>
-											<td style='font-size: small; font-weight: bold'>Number of tracks</td>
-										</tr>
-									</thead>
-									<tbody data-ng-repeat="rel in release.releases">
-										<tr>
-											<td><i ng-class="[rel.isFavourite ? 'yellowPointer' : 'bluePointer']" class="glyphicon glyphicon-star"></i></td>
-											<td>{{rel.date}}</td>
-											<td>{{rel.title}}</td>
-											<td>{{rel.label}}</td>
-											<td>{{rel.numberOfTracks}}</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-					</div>
-				</div>
+    <nav class="navbar navbar-inverse navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Nav Music Xbox</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="MusicBrainz.html">MusicBrainz</a></li>
+                <li><a href="LastFM.html"><i class="glyphicon glyphicon-headphones redPointer"></i> Last fm</a></li>
+                <li class="active"><a href="Favourites.html"><i class="glyphicon glyphicon-star yellowPointer"></i> Favorites</a></li>
+                <li><a href="/Help">API</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container body-content">
+        <div class="container" ng-app="musicsearchApp" ng-controller="searchCtrl">
+            <div>
+                <h2>Favourites</h2>
+                <div id="favDialog" ng-model="favourites">
+                    <div class="row grayBorder">
+                        <div class="col-md-1 col-sm-1 col-xs-1" style="font-size: large; font-weight: bold;"></div>
+                        <div class="col-md-11 col-sm-11 col-xs-11" style="font-size: large; font-weight: bold;">Artist name</div>
+                    </div>
+                    <div ng-repeat="release in favourites">
+                        <div clss="row col-md-12 grayBorder table table-responsive" style="z-index: 99999 !important; line-height: 4em; vertical-align: middle;">
+                            <div class="col-md-1 col-sm-1 col-xs-2" ng-click="removeFromFavourites(release.releasetitle)">
+                                <i class="glyphicon glyphicon-minus-sign redPointer"></i>
+                            </div>
+                            <div class="col-md-7 col-sm-6 col-xs-5" style="text-end-overflow: ellipsis;">{{release.value.name}}</div>
+                            <div class="col-md-3 col-sm-4 col-xs-4" ng-click="toggleReleases($index)">
+                                <a href="#" style="text-decoration: none !important;">
+                                    <div id="show{{$index}}" class="hide">Show Releases</div>
+                                    <div id="hide{{$index}}" class="show">Hide Releases</div>
+                                </a>
+                            </div>
+                            &nbsp;
+                        </div>
+                        <div class="row col-md-12 show" id="results{{$index}}" ng-show="release.value.releases.length > 0">
+                            <table class="table table-responsive">
+                                <thead class="thead-default">
+                                    <tr>
+                                        <td></td>
+                                        <td style='font-size: small; font-weight: bold'>Year</td>
+                                        <td style='font-size: small; font-weight: bold'>Title</td>
+                                        <td style='font-size: small; font-weight: bold'>Release Label</td>
+                                        <td style='font-size: small; font-weight: bold'>Number of tracks</td>
+                                    </tr>
+                                </thead>
+                                <tbody data-ng-repeat="rel in release.value.releases">
+                                    <tr ng-show="rel.isFavourite">
+                                        <td><i ng-class="[rel.isFavourite ? 'yellowPointer' : 'bluePointer']" class="glyphicon glyphicon-star"></i></td>
+                                        <td>{{rel.date}}</td>
+                                        <td>{{rel.title}}</td>
+                                        <td>{{rel.label}}</td>
+                                        <td>{{rel.numberOfTracks}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
-				<div ng-model="shortListArtist">
-					<h2>My short list.</h2>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-1 col-sm-1 col-xs-1" style="font-size: large; font-weight: bold;"></div>
-							<div class="col-md-11 col-sm-11 col-xs-11" style="font-size: large; font-weight: bold;">Artist name</div>
-						</div>
-						<div data-ng-repeat="artist in shortListArtist track by $index">
-							<div class="row">
-								<div class ="grayBorder" style="line-height: 2em; vertical-align: middle;">
-									<div class="col-md-1 col-sm-1 col-xs-1">
-										<i class="glyphicon glyphicon-star bluePointer" id="favArtist{{$index}}"></i>
-									</div>
-									<div class="col-md-9 col-sm-9 col-xs-9">{{artist}}</div>
-									<div class="col-md-2 col-sm-2 col-xs-2"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                <div ng-model="shortListArtist">
+                    <h2>My short list.</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-1 col-xs-1" style="font-size: large; font-weight: bold;"></div>
+                            <div class="col-md-11 col-sm-11 col-xs-11" style="font-size: large; font-weight: bold;">Artist name</div>
+                        </div>
+                        <div data-ng-repeat="artist in shortListArtist track by $index">
+                            <div class="row">
+                                <div class="grayBorder" style="line-height: 2em; vertical-align: middle;">
+                                    <div class="col-md-1 col-sm-1 col-xs-1">
+                                        <i class="glyphicon glyphicon-star bluePointer" id="favArtist{{$index}}"></i>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 col-xs-9">{{artist}}</div>
+                                    <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<footer class="container">
-			<p>© 2016 - Music Xbox Application</p>
-		</footer>
-	</div>
+        <footer class="container">
+            <p>© 2016 - Music Xbox Application</p>
+        </footer>
+    </div>
 </body>
 </html>

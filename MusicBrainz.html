@@ -6,8 +6,8 @@
     <title>Search - Music Store</title>
 
     <!--<link href="/Content/site.css" rel="stylesheet">-->
-    <link href="Content/bootstrap.css" rel="stylesheet"/>
-    <link href="Content/Search.css" rel="stylesheet"/>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Search.css" rel="stylesheet" />
     <script src="Scripts/modernizr-2.6.2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
     <script src="Scripts/jquery-1.10.2.js"></script>
@@ -34,75 +34,76 @@
     </nav>
     <div class="container body-content">
         <!--<main>-->
-            <div class="container"  ng-app="musicsearchApp" ng-controller="searchCtrl">
-                <h2>Search MusicBrainz</h2>
-                <!--http://musicbrainz.org/ws/2/artist?query=jackson&limit=100&offset=1&inc=release&fmt=json role="form" type="submit" class="navbar-form navbar-left" novalidate="novalidate" -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="input-group input-group-md">
-                            <input type="text" class="form-control input-md" placeholder="Search" id="query" name="query">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default btn-md" type="submit" id="search"><i class="glyphicon glyphicon-search"></i></button>
-                            </span>
-                            <input type="text" id="limit" name="limit" value="10" style="display: none;"/>
-                            <input type="text" id="offset" name="offset" value="0" style="display: none;"/>
-                            <input type="text" id="inc" name="inc" value="releases" style="display: none;"/>
-                            <input type="text" id="fmt" name="fmt" value="json" style="display: none;"/>
-                        </div>
-                    </div>
-                </div>
-                <div ng-model="artists" ng-show="artists.length > 0">
-                    <h3 class ="grayBorder">Search Results:</h3>
-                    <div class="table-responsive">
-                        <table id="results" class="table table-striped table-inverse">
-                            <thead>
-                                <tr>
-                                    <td style="font-size: large; font-weight: bold;">Artist Name</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr data-ng-repeat="art in artists">
-                                    <td>
-                                        <div class="row">
-                                            <div style="line-height: 4em; vertical-align: middle;">
-                                                <div class="col-md-9 col-sm-7 col-xs-4" style="text-end-overflow: ellipsis;">{{art.name}}</div>
-                                                <div class="col-md-3 col-sm-5 col-xs-8 showReleases" ng-click="getReleases(art.mbid, $index)" style="cursor: pointer;">
-                                                    <a href="#" style="text-decoration: none !important;">
-                                                        <div id="show{{$index}}" class="show">Show Releases</div>
-                                                        <div id="hide{{$index}}" class="hide">Hide Releases</div>
-                                                    </a>
-                                                </div>
-                                                <div class="row" id="results{{$index}}" ng-show="art.releases.length > 0">
-                                                    <table class="table">
-                                                        <thead class="thead-default">
-                                                            <tr>
-                                                                <td></td>
-                                                                <td style='font-size: small; font-weight: bold'>Year</td>
-                                                                <td style='font-size: small; font-weight: bold'>Title</td>
-                                                                <td style='font-size: small; font-weight: bold'>Release Label</td>
-                                                                <td style='font-size: small; font-weight: bold'>Number of tracks</td>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody data-ng-repeat="rel in art.releases">
-                                                            <tr data-toggle="tooltip" title="Add To Favourites" ng-click="rel.isFavourite=!rel.isFavourite;addToFavourites(rel.title, art)">
-                                                                <td><i ng-class="[rel.isFavourite ? 'yellowPointer' : 'bluePointer']" class="glyphicon glyphicon-star"></i></td>
-                                                                <td>{{rel.date}}</td>
-                                                                <td>{{rel.title}}</td>
-                                                                <td>{{rel.label}}</td>
-                                                                <td>{{rel.numberOfTracks}}</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+        <div class="container" ng-app="musicsearchApp" ng-controller="searchCtrl">
+            <div class="row col-md-12"><i class="glyphicon glyphicon-trash pull-right" style="cursor: pointer;" data-toggle="tooltip" title="Trash Favourites" ng-click="trashFavourites()"></i></div>
+            <h2>Search MusicBrainz</h2>
+            <!--http://musicbrainz.org/ws/2/artist?query=jackson&limit=100&offset=1&inc=release&fmt=json role="form" type="submit" class="navbar-form navbar-left" novalidate="novalidate" -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="input-group input-group-md">
+                        <input type="text" class="form-control input-md" placeholder="Search" id="query" name="query">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default btn-md" type="submit" id="search"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+                        <input type="text" id="limit" name="limit" value="10" style="display: none;"/>
+                        <input type="text" id="offset" name="offset" value="0" style="display: none;"/>
+                        <input type="text" id="inc" name="inc" value="releases" style="display: none;"/>
+                        <input type="text" id="fmt" name="fmt" value="json" style="display: none;"/>
                     </div>
                 </div>
             </div>
+            <div ng-model="artists" ng-show="artists.length > 0">
+                <h3 class="grayBorder">Search Results:</h3>
+                <div class="table-responsive">
+                    <table id="results" class="table table-striped table-inverse">
+                        <thead>
+                        <tr>
+                            <td style="font-size: large; font-weight: bold;">Artist Name</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr data-ng-repeat="art in artists">
+                            <td>
+                                <div class="row">
+                                    <div style="line-height: 4em; vertical-align: middle;">
+                                        <div class="col-md-9 col-sm-7 col-xs-4" style="text-end-overflow: ellipsis;">{{art.name}}</div>
+                                        <div class="col-md-3 col-sm-5 col-xs-8" ng-click="getReleases(art.mbid, $index)" style="cursor: pointer;">
+                                            <a href="#" style="text-decoration: none !important;">
+                                                <div id="show{{$index}}" class="show">Show Releases</div>
+                                                <div id="hide{{$index}}" class="hide">Hide Releases</div>
+                                            </a>
+                                        </div>
+                                        <div class="row" id="results{{$index}}" ng-show="art.releases.length > 0">
+                                            <table class="table">
+                                                <thead class="thead-default">
+                                                <tr>
+                                                    <td></td>
+                                                    <td style='font-size: small; font-weight: bold'>Year</td>
+                                                    <td style='font-size: small; font-weight: bold'>Title</td>
+                                                    <td style='font-size: small; font-weight: bold'>Release Label</td>
+                                                    <td style='font-size: small; font-weight: bold'>Number of tracks</td>
+                                                </tr>
+                                                </thead>
+                                                <tbody data-ng-repeat="rel in art.releases">
+                                                <tr data-toggle="tooltip" title="Add To Favourites" ng-click="rel.isFavourite=!rel.isFavourite;addToFavourites(art.mbid + art.name, art)">
+                                                    <td><i ng-class="[rel.isFavourite ? 'yellowPointer' : 'bluePointer']" class="glyphicon glyphicon-star"></i></td>
+                                                    <td>{{rel.date}}</td>
+                                                    <td>{{rel.title}}</td>
+                                                    <td>{{rel.label}}</td>
+                                                    <td>{{rel.numberOfTracks}}</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
         <!--</main>-->
         <footer class="container">
             <p>© 2016 - Music Xbox Application</p>
