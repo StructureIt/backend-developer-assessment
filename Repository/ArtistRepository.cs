@@ -25,12 +25,15 @@ namespace SearchApiService.Repository
 
         public IQueryable<Artist> SearchByName(SearchRequest request)
         {
+            // Query to search for records with name in artist table or alias table
             var artistlist = from a in context.artists
-                             join al in context.artistalias on a.id equals al.artist into aliases
-                             from alias in aliases.Where(i => i.name.Contains(request.Query)).DefaultIfEmpty()
-                             where a.name.Contains(request.Query)
-                             orderby a.id
-                             select a;
+                             select new { artistObject = a, aliasCollection = a.artistalias }
+                             into newlist
+                             where
+                                 newlist.artistObject.name.Contains(request.Query) ||
+                                 newlist.aliasCollection.Any(al => al.name.Contains(request.Query))
+                             orderby newlist.artistObject.name
+                             select newlist.artistObject;
 
             return artistlist.ProjectTo<Artist>();
         }
