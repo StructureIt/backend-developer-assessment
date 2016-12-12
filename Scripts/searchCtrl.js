@@ -165,7 +165,7 @@ app.controller("searchCtrl",
             return {
                 name: artistSource.name,
                 mbid: artistSource.mbid || artistSource.id,
-                url: artistSource.url || '', // www.last.fm/music/Metallica",
+                url: artistSource.url || "http://www.last.fm/music/" + artistSource.name.replace(/\s+/g, '+'),
                 image: artistSource.image || [],
                 releases: [],
                 show: true,

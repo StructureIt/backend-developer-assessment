@@ -66,7 +66,7 @@
                             <td>
                                 <div class="row">
                                     <div style="line-height: 4em; vertical-align: middle;">
-                                        <div class="col-md-9 col-sm-7 col-xs-4" style="text-end-overflow: ellipsis;">{{art.name}}</div>
+                                        <div class="col-md-9 col-sm-7 col-xs-4" style="text-end-overflow: ellipsis;"><a href="{{art.url}}" target="_blank">{{art.name}}</a></div>
                                         <div class="col-md-3 col-sm-5 col-xs-8" ng-click="getReleases(art.mbid, $index)" style="cursor: pointer;">
                                             <a href="#" style="text-decoration: none !important;">
                                                 <div id="show{{$index}}" class="show">Show Releases</div>
