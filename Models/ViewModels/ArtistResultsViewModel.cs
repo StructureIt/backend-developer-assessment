@@ -1,11 +1,14 @@
-﻿using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
+using Newtonsoft.Json;
 
 namespace SearchApiService.Models.ViewModels
 {
     public class ArtistResultsViewModel : IResultsViewModel<Artist>
     {
         [DisplayName("numberOfPages")]
+        [JsonProperty("numberOfPages")]
         public int NoOfPages
         {
             get
@@ -14,7 +17,7 @@ namespace SearchApiService.Models.ViewModels
                 {
                     return 1;
                 }
-                return ResultsCount / PageSize;
+                return (int) Math.Ceiling((decimal) (ResultsCount / PageSize));
             }
         }
 
@@ -31,6 +34,7 @@ namespace SearchApiService.Models.ViewModels
         }
 
         [DisplayName("numberOfSearchResults")]
+        [JsonProperty("numberOfSearchResults")]
         public int ResultsCount
         {
             get;
