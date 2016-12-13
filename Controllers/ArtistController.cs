@@ -66,8 +66,8 @@ namespace SearchApiService.Controllers
             return SendErrorResponseMessage(artistId.ToString());
         }
 
-        // GET: api/v1/artist/search/joh/0/5
-        [Route("search/{query:maxlength(50)}/{index:int=0}/{size:int=100}")]
+        // GET: api/v1/artist/search/joh/1/5
+        [Route("search/{query:maxlength(50)}/{index:int=1}/{size:int=100}")]
         [HttpGet]
         public HttpResponseMessage SearchByName([FromUri]SearchRequest request)
         {
@@ -88,13 +88,8 @@ namespace SearchApiService.Controllers
                 ResultsCount = artistResult.Count()
             };
 
-            // Implemented paging here in a traditional way, can be enhanced with the help of OData webapi concepts 
-            var artistList = artistResult.ToList();
-            if (artistResult.Count() >= request.Index * request.Size && artistResult.Count() >= request.Size)
-            {
-                artistList = request.Index > 0 ? artistResult.Skip(request.Index * request.Size).Take(request.Size).ToList() : artistResult.Take(request.Size).ToList();
-            }
-            result.Results = artistList;
+            // changed logic from 0 based index to 1
+            result.Results = artistResult.Skip((request.Index - 1) * request.Size).Take(request.Size).ToList();
 
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
