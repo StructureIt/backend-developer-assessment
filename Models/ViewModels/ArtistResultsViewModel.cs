@@ -13,10 +13,8 @@ namespace SearchApiService.Models.ViewModels
         {
             get
             {
-                if (PageSize <= 0 || ResultsCount <= 0)
-                {
-                    return 1;
-                }
+                // PageSize cannot be 0 or negative number as per model validation 
+                // ResultsCount can be 0 so will return 0
                 return (int) Math.Ceiling((decimal) (ResultsCount / PageSize));
             }
         }
