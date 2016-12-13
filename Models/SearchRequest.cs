@@ -11,7 +11,7 @@ namespace SearchApiService.Models
         [Required]
         public string Query { get; set; }
 
-        [Range(0,100)]
+        [Range(1,100)]
         public int Index { get; set; }
 
         [Range(1,100)]
