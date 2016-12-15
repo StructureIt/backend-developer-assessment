@@ -11,6 +11,16 @@ namespace SearchApiService.Models.DataContract
         public ICollection<Release> Releases { get; set; }
     }
 
+    [DataContract(Name = "release-group")]
+    public class ReleaseGroup
+    {
+        [DataMember(Name = "artist-credit")]
+        public ICollection<Artistcredit> Otherartists { get; set; }
+
+        [DataMember(Name = "primary-type")]
+        public string Primarytype { get; set; }
+    }
+
     [DataContract]
     public class Release
     {
@@ -31,12 +41,15 @@ namespace SearchApiService.Models.DataContract
 
         [DataMember]
         public ICollection<MediaItem> Media { get; set; }
+
+        [DataMember(Name = "release-group")]
+        public ReleaseGroup ReleaseGroup { get; set; }
     }
 
     [DataContract]
     public class LabelInfo
     {
-        [DataMember]
+        [DataMember(Name = "label")]
         public Label Releaselabel { get; set; }
     }
 

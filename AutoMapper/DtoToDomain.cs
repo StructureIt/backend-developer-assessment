@@ -59,10 +59,16 @@ namespace SearchApiService.AutoMapper
             //WebApi Release object to Album Viewmodel flat structure conversion
             CreateMap<Release, AlbumViewModel>()
                 .ForMember(d => d.ReleaseId, opt => opt.MapFrom(src => src.Id))
+                .ForMember(d => d.Label, opt =>
+                {
+                    opt.Condition(src => src.Labelinfo != null && src.Labelinfo.Any() && src.Labelinfo.Count > 0);
+                    opt.MapFrom(src => src.Labelinfo.Select(l => l.Releaselabel).ToList().FirstOrDefault().Name);
+                }
+                )
                 .ForMember(d => d.Date, opt =>
                 {
-                    opt.Condition(src => src.Date.IsNullOrWhiteSpace() == false); //&& src.Date.Split('-').Length >= 3
-                    opt.MapFrom(src => src.Date); //("yyyy-MM-dd"));
+                    opt.Condition(src => src.Date.IsNullOrWhiteSpace() == false);
+                    opt.MapFrom(src => src.Date);
                 })
                 .ForMember(d => d.NumberOfTracks, opt =>
                 {
@@ -79,9 +85,9 @@ namespace SearchApiService.AutoMapper
         private static List<IdentityDomainModel> GetOtherArtists(ICollection<MediaItem> media)
         {
             HashSet<IdentityDomainModel> otherArtists = new HashSet<IdentityDomainModel>();
-            foreach (var i in media)
+            foreach (var i in media.SkipWhile(m => m.Tracks == null))
             {
-                foreach (var t in i.Tracks)
+                foreach (var t in i.Tracks.SkipWhile(t => t.Otherartists == null))
                 {
                     foreach (var a in t.Otherartists)
                     {

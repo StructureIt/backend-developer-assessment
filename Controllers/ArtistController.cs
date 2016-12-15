@@ -1,10 +1,16 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Web.Http;
 using SearchApiService.Models;
 using System.Threading.Tasks;
+using AutoMapper;
+using Microsoft.Ajax.Utilities;
+using Newtonsoft.Json.Linq;
+using SearchApiService.Models.DataContract;
 using SearchApiService.Repository;
 using SearchApiService.Models.ViewModels;
 
@@ -98,15 +104,26 @@ namespace SearchApiService.Controllers
         [Route("{artistId:guid}/releases")]
         public HttpResponseMessage GetReleases(Guid artistId)
         {
-            //Uncomment the line below to get list of releases from music db
-            //var url = @"http://musicbrainz.org/ws/2/release?artist=" + artistId + "&inc=labels+recordings&fmt=json";
-            
-            var albumResult = _albumRepository.GetById(artistId);
+            var url = @"http://musicbrainz.org/ws/2/release?artist=" + artistId + "&inc=labels+recordings+artist-credits&fmt=json";
 
-            if (albumResult != null)
-                return Request.CreateResponse(HttpStatusCode.OK, albumResult);
+            var responseMessage = WebApiHttpClientHelper.GetResponseFromMusicBrainzApi(url);
+            if (responseMessage.IsNullOrWhiteSpace())
+            {
+                return SendErrorResponseMessage(artistId.ToString());
+            }
 
-            return SendErrorResponseMessage(artistId.ToString());
+            var albumResult = JObject.Parse(responseMessage).ToObject<AlbumResults>();
+            var artistReleases = new AlbumResultsViewModel()
+            {
+                Id = artistId,
+                Releases = new List<AlbumViewModel>()
+            };
+
+            foreach (var ar in albumResult.Releases)
+            {
+                artistReleases.Releases.Add(Mapper.Map<AlbumViewModel>(ar));
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, artistReleases);
         }
     }
 }

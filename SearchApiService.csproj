@@ -295,6 +295,7 @@
     <Compile Include="Repository\ArtistRepository.cs" />
     <Compile Include="Repository\IReadOnlyRepository.cs" />
     <Compile Include="Repository\IResultsRepository.cs" />
+    <Compile Include="Repository\WebApiHttpClientHelper.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
