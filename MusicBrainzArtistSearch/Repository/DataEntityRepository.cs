@@ -46,8 +46,16 @@ namespace MusicBrainzArtistSearch.Repository
             List<ResultDataModels> resultSet = new List<ResultDataModels>();
             List<ArtistDataModels> artistList = new List<ArtistDataModels>();
 
-            foreach (Artist artist in _db.Artists.Where(a => a.artistname.Contains(name)).OrderBy(o => o.id))
+            var artistJoin = from queryArtist in _db.Artists
+                             join queryAlias in _db.Aliases on queryArtist.id equals queryAlias.artistid
+                             where queryArtist.artistname.Contains(name) || queryAlias.aliasname.Contains(name)
+                             group queryArtist by new { queryArtist.id };
+
+            foreach (var groups in artistJoin.ToList())
             {
+                int artistId = groups.Key.id;
+                Artist artist = _db.Artists.Find(artistId);
+
                 List<string> aliases = new List<string>();
                 foreach (Alias alias in artist.Aliases)
                 {
@@ -55,6 +63,7 @@ namespace MusicBrainzArtistSearch.Repository
                 }
                 artistList.Add(new ArtistDataModels(artist.artistname, artist.country, aliases));
             }
+
 
             if (artistList.Count == 0) //no returned elements
             {
@@ -75,11 +84,18 @@ namespace MusicBrainzArtistSearch.Repository
 
             //materialize original query so we don't have to do 2 queries
             int totalSearchResults = 0;
-            var query = from initSearchResult in _db.Artists.Where(a => a.artistname.Contains(name)) select initSearchResult;
-            totalSearchResults = query.Count();
+            var artistJoin = from queryArtist in _db.Artists
+                             join queryAlias in _db.Aliases on queryArtist.id equals queryAlias.artistid
+                             where queryArtist.artistname.Contains(name) || queryAlias.aliasname.Contains(name)
+                             group queryArtist by new { queryArtist.id };
 
-            foreach (Artist artist in query.OrderBy(o => o.id).Skip(pageSize * (pageNumber - 1)).Take(pageSize))
+            totalSearchResults = artistJoin.ToList().Count();
+
+            foreach (var groups in artistJoin.OrderBy(o => o.Key.id).Skip(pageSize * (pageNumber - 1)).Take(pageSize).ToList())
             {
+                int artistId = groups.Key.id;
+                Artist artist = _db.Artists.Find(artistId);
+
                 List<string> aliases = new List<string>();
                 foreach (Alias alias in artist.Aliases)
                 {
